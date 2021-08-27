@@ -1,4 +1,4 @@
-#  <img src="https://arnaldoaf.github.io/img/csharp.svg" width="27">&nbsp;<img src="https://cdn.worldvectorlogo.com/logos/dot-net-core-7.svg" width="37"> It's a repository of .NET Framework development 🖥️🔢
+# <img src="https://cdn.worldvectorlogo.com/logos/dot-net-core-7.svg" width="37"> It's a repository of .NET Framework development 🖥️🔢
 
 <blockquote>It's my repository of Microsoft Full-Stack .NET development with: Asp.NET Core, Blazor, C# (C-Sharp), .NET Framework and .NET Core.</blockquote>
 
