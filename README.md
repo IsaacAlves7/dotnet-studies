@@ -4,13 +4,21 @@
 
 ![1_7I6oONv2fGLQJcNEFA4QSw](https://user-images.githubusercontent.com/61624336/114978169-3ef11200-9e5f-11eb-8621-63964ccd0af6.png)
 
-<div align="center"><img src="https://arnaldoaf.github.io/img/csharp.svg" height="177"></div>
+# 🖥️ A História da linguagem C# (C-Sharp) 🖥️
+<div align="center"><img src="https://arnaldoaf.github.io/img/csharp.svg" height="177"></div><br \>
+
+A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de alto-nível e orientada a objetos.
+
+# .NET Framework
+<div align="center"><img src="" height="177"></div>
+
+# .NET Core
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg" height="177"></div>
+
 <div align="center"><img src="https://storage.googleapis.com/hcode.com.br/courses/65/logo_svg5fd776bc276da.svg" height="177"></div>
 
 ![1_7I6oONv2fGLQJcNEFA4QSw](https://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png)
 
-![1_7I6oONv2fGLQJcNEFA4QSw](https://elcamino.dev/wp-content/uploads/2020/12/csharp9.png)
 
 ![1_7I6oONv2fGLQJcNEFA4QSw](http://computerjee.com/wp-content/uploads/2020/05/C.jpg)
 
