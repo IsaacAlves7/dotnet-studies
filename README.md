@@ -4,6 +4,8 @@
 
 ![1_7I6oONv2fGLQJcNEFA4QSw](https://user-images.githubusercontent.com/61624336/114978169-3ef11200-9e5f-11eb-8621-63964ccd0af6.png)
 
+<hr>
+
 # 🖥️ A História da linguagem C# (C-Sharp) 🖥️
 <div align="center"><img src="https://arnaldoaf.github.io/img/csharp.svg" height="177"></div><br \>
 
