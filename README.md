@@ -1,8 +1,8 @@
+![1_7I6oONv2fGLQJcNEFA4QSw](https://user-images.githubusercontent.com/61624336/114978169-3ef11200-9e5f-11eb-8621-63964ccd0af6.png)
+
 # <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/.NET_Logo.svg" width="27"> It's a repository of .NET Framework development 🟣
 
 <blockquote>It's my repository of Microsoft Full-Stack .NET development with: Asp.NET Core, Blazor, C# (C-Sharp), .NET Framework and .NET Core.</blockquote>
-
-![1_7I6oONv2fGLQJcNEFA4QSw](https://user-images.githubusercontent.com/61624336/114978169-3ef11200-9e5f-11eb-8621-63964ccd0af6.png)
 
 <hr>
 
