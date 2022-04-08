@@ -12,7 +12,7 @@
 A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de alto-nível e orientada a objetos.
 
 # .NET Framework
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/.NET_Logo.svg" height="277"></div><br \>
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/.NET_Logo.svg" height="177"></div><br \>
 
 # .NET Core
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg" height="177"></div><br \>
