@@ -10,15 +10,15 @@
 
 <hr>
 
-# 🖥️ A História da linguagem C# (C-Sharp) 🖥️
+# 🖥️ A História da linguagem C# (C-Sharp)
 <div align="center"><img src="https://arnaldoaf.github.io/img/csharp.svg" height="177"></div><br \>
 
 A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de alto-nível e orientada a objetos.
 
-# .NET Framework
+# 🟣 .NET Framework
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/.NET_Logo.svg" height="177"></div><br \>
 
-# .NET Core
+# 🟪 .NET Core
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg" height="177"></div><br \>
 
 <div align="center"><img src="https://storage.googleapis.com/hcode.com.br/courses/65/logo_svg5fd776bc276da.svg" height="177"></div>
