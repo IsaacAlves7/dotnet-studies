@@ -13,6 +13,8 @@
 
 A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de alto-nível e orientada a objetos.
 
+<img src="https://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png" align="right">
+
 # 🟣 .NET Framework
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/.NET_Logo.svg" height="177"></div><br \>
 
@@ -20,8 +22,6 @@ A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de 
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg" height="177"></div><br \>
 
 <div align="center"><img src="https://storage.googleapis.com/hcode.com.br/courses/65/logo_svg5fd776bc276da.svg" height="177"></div>
-
-![1_7I6oONv2fGLQJcNEFA4QSw](https://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png)
 
 
 ![1_7I6oONv2fGLQJcNEFA4QSw](http://computerjee.com/wp-content/uploads/2020/05/C.jpg)
