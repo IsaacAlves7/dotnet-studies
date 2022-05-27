@@ -36,6 +36,6 @@ A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de 
 # 🟦 Entity Framework
 <div align="center"><img src="https://www.captivix.com/wp-content/uploads/2019/07/outsource-vs-partnership-captivix.jpg" width="100%"></div><br \>
 
-# IronOCR
+# 📓 IronOCR
 <div align="center"><img src="https://ironsoftware.com/img/svgs/iron-ocr-logo.svg" height="177"></div><br \>
 
