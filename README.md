@@ -13,10 +13,11 @@
 
 A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de alto-nível e orientada a objetos.
 
-<img src="https://storage.googleapis.com/hcode.com.br/courses/65/logo_svg5fd776bc276da.svg" height="177" align="right">
+<img src="https://storage.googleapis.com/hcode.com.br/courses/65/logo_svg5fd776bc276da.svg" height="77" align="right">
 
 
-## Windows Forms
+
+## Windows Forms Application (Aplicação Windows em janela)
 <img src="https://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png">
 
 # 🟣 .NET Framework
