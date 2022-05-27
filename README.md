@@ -20,7 +20,7 @@ A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de 
 <img src="https://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png">
 
 # 🟣 .NET Framework
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/.NET_Logo.svg" height="177"></div><br \>
+<div align="center"><a href="https://dotnet.microsoft.com/en-us/download"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/.NET_Logo.svg" height="177"></a></div><br \>
 
 # 🟪 .NET Core
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg" height="177"></div><br \>
