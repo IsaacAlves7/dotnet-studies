@@ -24,6 +24,9 @@ A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de 
 # 🖥️ Windows Forms Application (Aplicação Windows em janela)
 <img src="https://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png">
 
+# 🪒 Razor Pages
+![maxresdefault](https://user-images.githubusercontent.com/61624336/171050062-ea7569e8-097b-4ae7-8139-794b4e0f805e.jpg)
+
 # 🟣 .NET Framework
 <div align="center"><a href="https://dotnet.microsoft.com/en-us/download"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/.NET_Logo.svg" height="177"></a></div><br \>
 
