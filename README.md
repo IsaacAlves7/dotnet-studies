@@ -37,7 +37,7 @@ A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de 
 <div align="center"><img src="https://symbols.getvecta.com/stencil_88/76_microsoft-net-vertical.9591843503.svg" height="177"></div><br \>
 
 # 🟦 ASP.NET Core
-<div align="center"><img src="" height="177"></div><br \>
+<div align="center"><img src="https://codeopinion.com/wp-content/uploads/2018/07/Bitmap-MEDIUM_ASP.NET-Core-Logo_2colors_Square_RGB.png" height="177"></div><br \>
 
 # 🟩 Entity Framework
 <div align="center"><img src="https://www.captivix.com/wp-content/uploads/2019/07/outsource-vs-partnership-captivix.jpg" width="100%"></div><br \>
