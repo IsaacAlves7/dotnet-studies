@@ -26,11 +26,17 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 - Microsoft iniciou nos anos 70 criando linguagens de programação: **Basic**
 - Nos anos 80, surge o **DOS**, que foi utilizado como OS padrão para computadores IBM
   - > Nos próximos anos a Microsoft atua fortemente na criação do OS Windows.
-- No fim dos anos 90, a Microsoft tentou consolidar as ferramentas de desenvolvimento (IDEs e runtimes) com o **Visual Studio 97**:
+- **1997**, No fim dos anos 90, a Microsoft tentou consolidar as ferramentas de desenvolvimento (IDEs e runtimes) com o **Visual Studio 97**:
   - Visual Basic 5
   - Visual FoxPro 5
   - C++ 5
   - J++
+- **1998**, lançamento do Visual Studio 6:
+  - Visual Basic 6
+  - Visual FoxPro 6
+  - C++ 6
+  - J++ 6
+- 
 
 # 🟢 C-Sharp (C#)
 <div align="center"><img src="https://arnaldoaf.github.io/img/csharp.svg" height="177"></div><br \>
