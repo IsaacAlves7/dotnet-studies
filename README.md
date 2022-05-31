@@ -19,7 +19,14 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 - **Lógico**: Voltado ao desenvolvimento de problemas de lógica e usado em sistemas de inteligência computacional.
 - **Orientado a Objetos (OO)**: Define um conjunto de classes para dividir o problema e realiza a interação entre as diferentes classes para também resolver o problema como um todo.
 
-----
+---
+
+<h1 align="center">🕰️ A história do Framework .NET</h1>
+
+- Microsoft iniciou nos anos 70 criando linguagens de programação: **Basic**
+- Nos anos 80, surge o **DOS**, que foi utilizado como OS padrão para computadores IBM
+- > Nos próximos anos a Microsoft atua fortemente na criação do OS Windows.
+- No fim dos anos 90, a Microsoft tentou consolidar as 
 
 # 🟢 C-Sharp (C#)
 <div align="center"><img src="https://arnaldoaf.github.io/img/csharp.svg" height="177"></div><br \>
