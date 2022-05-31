@@ -25,7 +25,10 @@ A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de 
 <img src="https://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png">
 
 # 🪒 Razor Pages
-![maxresdefault](https://user-images.githubusercontent.com/61624336/171050062-ea7569e8-097b-4ae7-8139-794b4e0f805e.jpg)
+<div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/razor_1fa92.png"></div><br \>
+
+# 🧵 Serilog
+<div align="center"><img src="https://serilog.net/img/serilog.png" height="177"></div><br \>
 
 # 🟣 .NET Framework
 <div align="center"><a href="https://dotnet.microsoft.com/en-us/download" title="Click to install the currently .NET sdk"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/.NET_Logo.svg" height="177"></a></div><br \>
