@@ -25,7 +25,7 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 
 - Microsoft iniciou nos anos 70 criando linguagens de programação: **Basic**
 - Nos anos 80, surge o **DOS**, que foi utilizado como OS padrão para computadores IBM
-- > Nos próximos anos a Microsoft atua fortemente na criação do OS Windows.
+  - > Nos próximos anos a Microsoft atua fortemente na criação do OS Windows.
 - No fim dos anos 90, a Microsoft tentou consolidar as ferramentas de desenvolvimento (IDEs e runtimes) com o **Visual Studio 97**:
   - Visual Basic 5
   - Visual FoxPro 5
