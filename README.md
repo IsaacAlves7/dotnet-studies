@@ -21,7 +21,7 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 
 ---
 
-<h1 align="center">🕰️ A história do Framework .NET</h1>
+<h1 align="center">🕰️ A História do Framework .NET</h1>
 
 - Microsoft iniciou nos anos 70 criando linguagens de programação: **Basic**
 - Nos anos 80, surge o **DOS**, que foi utilizado como OS padrão para computadores IBM
