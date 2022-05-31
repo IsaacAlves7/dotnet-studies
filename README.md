@@ -30,9 +30,14 @@ A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de 
 # 🟣 .NET Framework
 <div align="center"><a href="https://dotnet.microsoft.com/en-us/download" title="Click to install the currently .NET sdk"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/.NET_Logo.svg" height="177"></a></div><br \>
 
-**Mostra a aplicação do dotnet e suas opções**:
+**Mostra a aplicação do dotnet funcionando e suas opções**:
 ```sh
 dotnet
+```
+
+**Mostra a versão instalada do seu dotnet**:
+```sh
+dotnet --version
 ```
 
 **Lista todos os pacotes do sdk instalados na sua máquina**:
