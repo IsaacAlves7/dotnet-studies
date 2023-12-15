@@ -7,10 +7,7 @@
 # It's a repository of .NET Framework 🟢
 > It's my repository of Microsoft Full-Stack .NET development with: Asp.NET Core, Blazor, C# (C-Sharp), .NET Framework and .NET Core.
 
-
----
-
-# The History of .NET Framework
+# 🟢 [C#] The History of .NET Framework
 <img src="https://mattwarren.org/images/2018/10/History%20of%20.NET%20Runtimes%20-%20Timeline.png">
 
 - Microsoft iniciou nos anos 70 criando linguagens de programação: **Basic**
@@ -28,7 +25,7 @@
   - J++ 6
 - 
 
-# 🟢 C-Sharp (C#)
+# 🟢 [C#] C-Sharp
 <img src="https://arnaldoaf.github.io/img/csharp.svg" height="77" align="right">
 
 A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de alto-nível e orientada a objetos.
