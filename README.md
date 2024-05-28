@@ -13,22 +13,23 @@
 - Microsoft iniciou nos anos 70 criando linguagens de programação: **Basic**
 - Nos anos 80, surge o **DOS**, que foi utilizado como OS padrão para computadores IBM
   - > Nos próximos anos a Microsoft atua fortemente na criação do OS Windows.
+
 - **1997**, No fim dos anos 90, a Microsoft tentou consolidar as ferramentas de desenvolvimento (IDEs e runtimes) com o **Visual Studio 97**:
   - Visual Basic 5
   - Visual FoxPro 5
   - C++ 5
   - J++
+  
 - **1998**, lançamento do Visual Studio 6:
   - Visual Basic 6
   - Visual FoxPro 6
   - C++ 6
   - J++ 6
-- 
 
 # 🟢 [C#] C-Sharp
 <img src="https://arnaldoaf.github.io/img/csharp.svg" height="77" align="right">
 
-A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de alto-nível e orientada a objetos. C# (pronunciado "C sharp") é uma linguagem de programação moderna, orientada a objetos e fortemente tipada, desenvolvida pela Microsoft como parte da plataforma .NET. Foi criada no início dos anos 2000 e rapidamente se tornou uma das linguagens mais populares para o desenvolvimento de aplicações de desktop, web, móveis e jogos.
+A linguagem **C#** ou também C-Sharp, é uma linguagem de programação de alto-nível e orientada a objetos. C# (pronunciado "C sharp") é uma linguagem de programação moderna, orientada a objetos e fortemente tipada, desenvolvida pela Microsoft como parte da plataforma .NET. Foi criada no início dos anos 2000 e rapidamente se tornou uma das linguagens mais populares para o desenvolvimento de aplicações de desktop, web, móveis e jogos. 
 
 Principais características do C#:
 
@@ -37,6 +38,8 @@ Principais características do C#:
    - **Herança**: Permite a criação de classes derivadas que herdam características de classes base.
    - **Polimorfismo**: Permite que métodos em classes derivadas tenham comportamentos diferentes.
    - **Encapsulamento**: Permite esconder os detalhes internos de uma classe e expor apenas as funcionalidades essenciais.
+
+<img src="https://storage.googleapis.com/hcode.com.br/courses/65/logo_svg5fd776bc276da.svg" height="77" align="right">
 
 2. **Tipagem Forte e Estática**:
    - **Verificação de Tipos em Tempo de Compilação**: Erros de tipo são detectados em tempo de compilação, o que reduz erros em tempo de execução.
@@ -78,16 +81,19 @@ Aplicações Comuns:
    - **Web API**: Para a construção de APIs RESTful.
 
 Mostra a aplicação do dotnet funcionando e suas opções:
+
 ```sh
 dotnet
 ```
 
 Mostra a versão instalada do seu dotnet:
+
 ```sh
 dotnet --version
 ```
 
 Lista todos os pacotes do sdk instalados na sua máquina:
+
 ```sh
 dotnet --list-sdks
 ```
@@ -152,16 +158,10 @@ namespace HelloWorld
 }
 ```
 
-### Conclusão
+# 🖥️ [C#] Windows Forms Application
+<img src="" height="77" align="right">
 
-C# é uma linguagem de programação versátil, poderosa e moderna, amplamente utilizada em diversas áreas do desenvolvimento de software. Sua forte integração com a plataforma .NET, juntamente com características de orientação a objetos, tipagem segura, suporte a programação assíncrona e capacidade de desenvolver para múltiplas plataformas, fazem dela uma escolha popular entre desenvolvedores.
-
-<img src="https://storage.googleapis.com/hcode.com.br/courses/65/logo_svg5fd776bc276da.svg" height="77" align="right">
-
-# 🖥️ Windows Forms Application (Aplicação em janela)
-<img src="https://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png">
-
-# 🪒 Razor Pages
+# 🪒 [C#] Razor Pages
 <div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/razor_1fa92.png"></div><br \>
 
 # 🧵 Serilog
