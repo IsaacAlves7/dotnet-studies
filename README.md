@@ -28,14 +28,76 @@
 # 🟢 [C#] C-Sharp
 <img src="https://arnaldoaf.github.io/img/csharp.svg" height="77" align="right">
 
-A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de alto-nível e orientada a objetos.
+A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de alto-nível e orientada a objetos. C# (pronunciado "C sharp") é uma linguagem de programação moderna, orientada a objetos e fortemente tipada, desenvolvida pela Microsoft como parte da plataforma .NET. Foi criada no início dos anos 2000 e rapidamente se tornou uma das linguagens mais populares para o desenvolvimento de aplicações de desktop, web, móveis e jogos.
 
-<img src="https://storage.googleapis.com/hcode.com.br/courses/65/logo_svg5fd776bc276da.svg" height="77" align="right">
+Principais características do C#:
+
+1. **Orientação a Objetos**:
+   - **Classes e Objetos**: Suporta a criação e manipulação de classes e objetos.
+   - **Herança**: Permite a criação de classes derivadas que herdam características de classes base.
+   - **Polimorfismo**: Permite que métodos em classes derivadas tenham comportamentos diferentes.
+   - **Encapsulamento**: Permite esconder os detalhes internos de uma classe e expor apenas as funcionalidades essenciais.
+
+2. **Tipagem Forte e Estática**:
+   - **Verificação de Tipos em Tempo de Compilação**: Erros de tipo são detectados em tempo de compilação, o que reduz erros em tempo de execução.
+   - **Tipagem Estática**: Os tipos das variáveis são definidos em tempo de compilação e não podem ser alterados.
+
+3. **Sintaxe e Semântica Modernas**:
+   - **Legibilidade**: A sintaxe é clara e intuitiva, facilitando a leitura e escrita do código.
+   - **Características Funcionais**: Suporta programação funcional com expressões lambda, LINQ (Language Integrated Query) e delegados.
+
+4. **Suporte à Programação Assíncrona**:
+   - **Async e Await**: Facilita a escrita de código assíncrono, melhorando a performance e a capacidade de resposta das aplicações.
+
+<a href="https://dotnet.microsoft.com/en-us/download" title="Click to install the currently .NET sdk"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" height="77" align="right"></a>
+
+5. **Plataforma .NET**:
+   - **Biblioteca de Classes Base**: A .NET proporciona uma vasta biblioteca de classes que facilita o desenvolvimento de uma ampla gama de aplicações.
+   - **Cross-Platform**: Com o .NET Core (agora .NET 5+), C# pode ser usado para desenvolver aplicações que rodam em Windows, Linux e macOS.
+
+6. **Segurança**:
+   - **Mecanismos de Segurança**: Oferece diversas características de segurança como controle de acesso, exceções e gerenciamento automático de memória com garbage collection.
+
+Aplicações Comuns:
+
+1. **Desenvolvimento Web**:
+   - **ASP.NET**: Framework para a construção de aplicações web dinâmicas e serviços web.
+
+2. **Aplicações de Desktop**:
+   - **Windows Forms** e **WPF (Windows Presentation Foundation)**: Para criar aplicações desktop ricas para Windows.
+
+3. **Desenvolvimento Móvel**:
+   - **Xamarin**: Plataforma para o desenvolvimento de aplicações móveis cross-platform usando C#.
+
+4. **Desenvolvimento de Jogos**:
+   - **Unity**: Um dos motores de jogos mais populares que usa C# como linguagem de script.
+
+5. **Serviços Web e APIs**:
+   - **Web API**: Para a construção de APIs RESTful.
 
 ## Hello, World! - C#
-```c#
+Aqui está um exemplo simples de um programa em C# que imprime `"Hello, World!"` na console:
 
+```csharp
+using System;
+
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
 ```
+
+### Conclusão
+
+C# é uma linguagem de programação versátil, poderosa e moderna, amplamente utilizada em diversas áreas do desenvolvimento de software. Sua forte integração com a plataforma .NET, juntamente com características de orientação a objetos, tipagem segura, suporte a programação assíncrona e capacidade de desenvolver para múltiplas plataformas, fazem dela uma escolha popular entre desenvolvedores.
+
+<img src="https://storage.googleapis.com/hcode.com.br/courses/65/logo_svg5fd776bc276da.svg" height="77" align="right">
 
 # 🖥️ Windows Forms Application (Aplicação em janela)
 <img src="https://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png">
@@ -47,7 +109,7 @@ A linguagem **C#** ou também **C-Sharp**, é uma linguagem de programação de 
 <div align="center"><img src="https://serilog.net/img/serilog.png" height="177"></div><br \>
 
 # 🟣 .NET Framework
-<div align="center"><a href="https://dotnet.microsoft.com/en-us/download" title="Click to install the currently .NET sdk"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/.NET_Logo.svg" height="177"></a></div><br \>
+<a href="https://dotnet.microsoft.com/en-us/download" title="Click to install the currently .NET sdk"><img src="" height="77" align="right"></a>
 
 **Mostra a aplicação do dotnet funcionando e suas opções**:
 ```sh
