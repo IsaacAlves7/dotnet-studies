@@ -39,7 +39,7 @@ Principais características do C#:
    - **Polimorfismo**: Permite que métodos em classes derivadas tenham comportamentos diferentes.
    - **Encapsulamento**: Permite esconder os detalhes internos de uma classe e expor apenas as funcionalidades essenciais.
 
-<img src="https://storage.googleapis.com/hcode.com.br/courses/65/logo_svg5fd776bc276da.svg" height="77" align="right">
+<img src="https://github.com/IsaacAlves7/dotnet/assets/61624336/9785fdaf-392f-4b11-83bd-72709ed8513d" align="right" height="277">
 
 2. **Tipagem Forte e Estática**:
    - **Verificação de Tipos em Tempo de Compilação**: Erros de tipo são detectados em tempo de compilação, o que reduz erros em tempo de execução.
@@ -103,6 +103,8 @@ O .NET Framework é uma plataforma poderosa e abrangente para desenvolvimento de
    - **Mecanismos de Segurança**: Oferece diversas características de segurança como controle de acesso, exceções e gerenciamento automático de memória com garbage collection.
 
 Aplicações Comuns:
+
+<img src="https://storage.googleapis.com/hcode.com.br/courses/65/logo_svg5fd776bc276da.svg" height="77" align="right">
 
 1. **Desenvolvimento Web**:
    - **ASP.NET**: Framework para a construção de aplicações web dinâmicas e serviços web.
