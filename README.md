@@ -68,6 +68,8 @@ Principais características do C#:
 
 Principais Componentes do .NET Framework:
 
+<img src="https://storage.googleapis.com/hcode.com.br/courses/65/logo_svg5fd776bc276da.svg" height="77" align="right">
+
 1. **Common Language Runtime (CLR)**:
    - **Máquina Virtual**: O CLR é o ambiente de execução do .NET que gerencia a execução de programas escritos em diversas linguagens de programação.
    - **Gerenciamento de Memória**: Inclui coleta de lixo automática, que gerencia a alocação e desalocação de memória.
@@ -87,24 +89,20 @@ Ferramentas e IDEs: **Visual Studio** é o ambiente de desenvolvimento integrado
 
 Versões do .NET:
 
+<a href="https://dotnet.microsoft.com/en-us/download" title="Click to install the currently .NET sdk"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg" height="77" align="right"></a>
+
 A plataforma .NET evoluiu ao longo dos anos e agora está disponível em diferentes formas:
 
 1. **.NET Framework**: A versão original, destinada principalmente ao desenvolvimento de aplicações Windows.
-2. **.NET Core**: Uma versão cross-platform e open-source do .NET, que permite desenvolvimento para Windows, macOS e Linux.
+2. **.NET Core**: Uma versão cross-platform e open-source do .NET, que permite desenvolvimento para Windows, macOS e Linux. Com o .NET Core (agora .NET 5+), C# pode ser usado para desenvolver aplicações que rodam em Windows, Linux e macOS. 
 3. **.NET 5+**: A versão unificada que combina os melhores aspectos do .NET Framework, .NET Core e Xamarin, proporcionando um ambiente de desenvolvimento consistente para todas as plataformas.
 
 O .NET Framework é uma plataforma poderosa e abrangente para desenvolvimento de software, e a linguagem C# é sua principal linguagem de programação. Juntos, eles oferecem uma base robusta para construir aplicações seguras, eficientes e de alto desempenho. A integração profunda entre C# e o .NET permite que desenvolvedores aproveitem ao máximo os recursos oferecidos pela plataforma, facilitando o desenvolvimento e a manutenção de aplicações complexas.
-
-<a href="https://dotnet.microsoft.com/en-us/download" title="Click to install the currently .NET sdk"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg" height="77" align="right"></a>
-
-**Cross-Platform**: Com o **.NET Core** (agora .NET 5+), C# pode ser usado para desenvolver aplicações que rodam em Windows, Linux e macOS. 
 
 5. **Segurança**:
    - **Mecanismos de Segurança**: Oferece diversas características de segurança como controle de acesso, exceções e gerenciamento automático de memória com garbage collection.
 
 Aplicações Comuns:
-
-<img src="https://storage.googleapis.com/hcode.com.br/courses/65/logo_svg5fd776bc276da.svg" height="77" align="right">
 
 1. **Desenvolvimento Web**:
    - **ASP.NET**: Framework para a construção de aplicações web dinâmicas e serviços web.
