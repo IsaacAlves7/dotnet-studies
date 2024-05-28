@@ -75,6 +75,25 @@ Aplicações Comuns:
 5. **Serviços Web e APIs**:
    - **Web API**: Para a construção de APIs RESTful.
 
+**Mostra a aplicação do dotnet funcionando e suas opções**:
+```sh
+dotnet
+```
+
+**Mostra a versão instalada do seu dotnet**:
+```sh
+dotnet --version
+```
+
+**Lista todos os pacotes do sdk instalados na sua máquina**:
+```sh
+dotnet --list-sdks
+```
+
+<img src="https://geeks.ms/wp-content/uploads/old-web-files/jalarcon/IISExpress_61AF1A62.jpg" height="77" align="right">
+
+O **IIS Express** é um web server (servidor web) para executar o código ASP.NET Framework na web, através da sua máquina local.
+
 ## Hello, World! - C#
 Aqui está um exemplo simples de um programa em C# que imprime `"Hello, World!"` na console:
 
@@ -107,31 +126,6 @@ C# é uma linguagem de programação versátil, poderosa e moderna, amplamente u
 
 # 🧵 Serilog
 <div align="center"><img src="https://serilog.net/img/serilog.png" height="177"></div><br \>
-
-# 🟣 .NET Framework
-<a href="https://dotnet.microsoft.com/en-us/download" title="Click to install the currently .NET sdk"><img src="" height="77" align="right"></a>
-
-**Mostra a aplicação do dotnet funcionando e suas opções**:
-```sh
-dotnet
-```
-
-**Mostra a versão instalada do seu dotnet**:
-```sh
-dotnet --version
-```
-
-**Lista todos os pacotes do sdk instalados na sua máquina**:
-```sh
-dotnet --list-sdks
-```
-
-<img src="https://geeks.ms/wp-content/uploads/old-web-files/jalarcon/IISExpress_61AF1A62.jpg" height="77" align="right">
-
-O **IIS Express** é um web server (servidor web) para executar o código ASP.NET Framework na web, através da sua máquina local.
-
-# 🟪 .NET Core
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg" height="177"></div><br \>
 
 # 🔵 ASP.NET
 <div align="center"><img src="https://symbols.getvecta.com/stencil_88/76_microsoft-net-vertical.9591843503.svg" height="177"></div><br \>
