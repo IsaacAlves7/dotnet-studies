@@ -313,7 +313,7 @@ Limitações do Windows Forms:
 3. **Tecnologia Legada**:
    - Embora ainda seja suportada, não é mais o foco principal da Microsoft para novas aplicações de desktop, que agora estão voltadas para WPF e UWP.
   
-# 🧵 [C#] Serilog
+## [C#] Serilog
 <img src="https://serilog.net/img/serilog.png" height="77" align="right">
 
 **Serilog** é uma biblioteca de logging para aplicativos .NET que permite a gravação estruturada de logs. Diferente de sistemas de logging tradicionais, que geralmente gravam logs como texto simples, o Serilog permite que os dados de log sejam estruturados e enriquecidos com propriedades adicionais. Isso facilita a consulta, análise e correlação de eventos nos logs. Serilog é uma ferramenta poderosa e flexível para logging em aplicativos .NET, permitindo registros estruturados e integrando-se facilmente com diversos sistemas de armazenamento e análise de logs.
