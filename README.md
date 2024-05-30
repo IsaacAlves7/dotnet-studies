@@ -240,7 +240,92 @@ Vantagens do Microsoft SQL Server:
 
 5. **Escalabilidade**:
    - Capacidade de escalar verticalmente e horizontalmente para lidar com o crescimento dos dados e das demandas da aplicação.
-  
+
+## Apache Cassandra
+<img src="https://cdn.worldvectorlogo.com/logos/cassandra.svg" align="right" height="77">
+
+O **Apache Cassandra** é um sistema de gerenciamento de banco de dados distribuído altamente escalável, projetado para lidar com grandes volumes de dados distribuídos em várias máquinas, oferecendo alta disponibilidade e tolerância a falhas. Ele foi originalmente desenvolvido pelo Facebook e, em 2008, tornou-se um projeto de código aberto sob a incubação da Apache Software Foundation.
+
+Principais Características do Apache Cassandra:
+
+1. **Modelo de Dados Desnormalizado**:
+   - O Cassandra utiliza um modelo de dados de estilo NoSQL, no qual os dados são armazenados de forma desnormalizada, permitindo consultas rápidas e eficientes.
+
+2. **Escalabilidade Horizontal**:
+   - É altamente escalável horizontalmente, o que significa que pode ser facilmente dimensionado adicionando novos nós ao cluster para lidar com o aumento da carga de trabalho e volume de dados.
+
+3. **Arquitetura Distribuída**:
+   - Distribui os dados entre vários nós em um cluster, permitindo que ele mantenha alta disponibilidade e tolerância a falhas mesmo em caso de falha de hardware ou rede.
+
+4. **Desempenho e Baixa Latência**:
+   - Oferece baixa latência e alto desempenho para operações de leitura e gravação, tornando-o adequado para aplicações que exigem resposta rápida.
+
+5. **Sem Ponto Único de Falha**:
+   - Elimina pontos únicos de falha usando uma arquitetura descentralizada, onde cada nó no cluster é igualmente responsável pela execução de consultas e armazenamento de dados.
+
+6. **Flexibilidade de Consistência**:
+   - Permite aos usuários configurar o nível de consistência desejado para operações de leitura e gravação, oferecendo uma escolha entre consistência forte e disponibilidade imediata.
+
+7. **Suporte a Consultas Flexíveis**:
+   - Suporta consultas flexíveis usando CQL (Cassandra Query Language), uma linguagem de consulta semelhante ao SQL, que permite realizar consultas simples e complexas nos dados.
+
+8. **Integração com Ferramentas de Big Data**:
+   - Pode ser integrado com outras ferramentas de big data, como Apache Hadoop e Apache Spark, para análise de dados em larga escala.
+
+Casos de Uso do Apache Cassandra:
+
+1. **Aplicações de Redes Sociais**:
+   - Usado por empresas de redes sociais para armazenar dados de perfil de usuários, feeds de notícias e interações sociais.
+
+2. **Aplicações de IoT (Internet das Coisas)**:
+   - Ideal para armazenar grandes volumes de dados gerados por dispositivos IoT, como sensores, medidores e dispositivos conectados.
+
+3. **Aplicações de Análise de Logs**:
+   - Utilizado para armazenar e analisar logs de aplicativos, servidores e sistemas distribuídos devido à sua capacidade de lidar com grande volume de dados e baixa latência.
+
+4. **Aplicações de Monitoramento em Tempo Real**:
+   - Adequado para aplicações que exigem monitoramento em tempo real e análise de dados em tempo real, como detecção de fraudes, monitoramento de desempenho e análise de eventos.
+
+5. **Aplicações de Comércio Eletrônico**:
+   - Usado para armazenar catálogos de produtos, histórico de compras, carrinhos de compras e dados de sessão de usuários em plataformas de comércio eletrônico.
+
+Exemplo de Uso do Apache Cassandra:
+
+Aqui está um exemplo simples de criação de um keyspace e uma tabela usando CQL:
+
+```sql
+-- Criar um novo keyspace
+CREATE KEYSPACE MyKeyspace
+WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 3};
+
+-- Usar o keyspace
+USE MyKeyspace;
+
+-- Criar uma nova tabela
+CREATE TABLE Users (
+    UserID UUID PRIMARY KEY,
+    Username TEXT,
+    Email TEXT
+);
+```
+
+Vantagens do Apache Cassandra:
+
+1. **Escalabilidade Linear**:
+   - Capacidade de escalar horizontalmente para lidar com grandes volumes de dados e carga de trabalho, sem degradação no desempenho.
+
+2. **Alta Disponibilidade**:
+   - Oferece alta disponibilidade e tolerância a falhas, garantindo que os dados permaneçam acessíveis mesmo em caso de falha de hardware ou rede.
+
+3. **Desempenho e Baixa Latência**:
+   - Fornece baixa latência e alto desempenho para operações de leitura e gravação, mesmo em ambientes distribuídos.
+
+4. **Modelo de Dados Flexível**:
+   - Suporta um modelo de dados flexível, permitindo a adição de novas colunas e a atualização de esquemas sem interrupções.
+
+5. **Comunidade Ativa e Suporte**:
+   - Tem uma comunidade ativa de usuários e desenvolvedores, além de suporte comercial disponível por meio de fornecedores e provedores de serviços.
+
 # 🖥️ [C#] Windows Forms Application
 <img src="https://github.com/IsaacAlves7/dotnet/assets/61624336/419ce8b2-291e-4c17-8872-1825c192d830" height="77" align="right">
 
