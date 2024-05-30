@@ -546,7 +546,7 @@ class Program
 
 Neste exemplo, o Serilog é configurado para escrever logs tanto no console quanto em um arquivo, com rotação diária dos arquivos de log. Os métodos `Log.Information`, `Log.Warning` e `Log.Error` são usados para registrar mensagens de log com diferentes níveis de severidade.
 
-# 🔵 ASP.NET
+# 🔵 [C#] ASP.NET
 <img src="https://codeopinion.com/wp-content/uploads/2018/07/Bitmap-MEDIUM_ASP.NET-Core-Logo_2colors_Square_RGB.png" height="77" align="right">
 
 **ASP.NET** é uma estrutura de desenvolvimento web da Microsoft usada para criar aplicativos web dinâmicos e robustos. Faz parte da plataforma .NET e permite a criação de sites, serviços web e aplicações web. <a href="https://user-images.githubusercontent.com/61624336/174923491-74802096-f33c-4296-a1fa-4eedb3934591.jpg">ASP.NET</a> suporta várias abordagens de desenvolvimento, incluindo Web Forms, MVC (Model-View-Controller), Web API e Razor Pages. ASP.NET é uma plataforma poderosa e flexível para o desenvolvimento de aplicações web. Com suporte para várias abordagens e padrões, juntamente com uma forte integração com a plataforma .NET, oferece um ambiente robusto e produtivo para criar desde pequenos sites até aplicações web complexas e escaláveis.
