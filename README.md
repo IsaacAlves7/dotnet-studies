@@ -1029,6 +1029,76 @@ Limitações do Entity Framework:
 3. **Flexibilidade**:
    - Pode ser menos flexível para certos tipos de consultas ou operações avançadas de banco de dados.
 
+## [C#] Ocelot
+<img src="https://github.com/IsaacAlves7/dotnet/assets/61624336/81c2581d-e3cc-409e-b04b-b317e09ff361" align="right" height="77">
+
+O **Ocelot** é uma biblioteca de código aberto para construção de gateways de API em .NET. Ele foi projetado para simplificar o processo de criação de gateways que atuam como intermediários entre clientes e várias APIs de serviços nos bastidores. Esses gateways podem ser úteis em cenários de microserviços, onde várias APIs precisam ser acessadas por meio de uma única interface. O Ocelot é uma ferramenta útil para construir gateways de API em .NET, simplificando o processo de roteamento, autenticação, autorização e transformação de solicitações e respostas. Com sua simplicidade de configuração, flexibilidade e suporte a padrões de segurança, o Ocelot é uma escolha popular para desenvolvedores que precisam criar gateways de API eficientes e escaláveis em suas aplicações .NET.
+
+Principais Características do Ocelot:
+
+1. **Gateway de API**:
+   - Permite que os desenvolvedores criem um ponto de entrada único para acessar várias APIs de serviço.
+
+2. **Roteamento de Requisições**:
+   - Roteia as solicitações do cliente para as APIs de serviço correspondentes com base em critérios como URL, método HTTP, cabeçalhos etc.
+
+3. **Autenticação e Autorização**:
+   - Oferece suporte para autenticação e autorização, permitindo controlar o acesso às APIs de serviço com base em políticas de segurança.
+
+4. **Transformação de Requisições e Respostas**:
+   - Permite transformar solicitações e respostas entre o formato do cliente e o formato esperado pela API de serviço.
+
+5. **Cache de Respostas**:
+   - Oferece suporte para cache de respostas para melhorar o desempenho e reduzir a carga nos serviços de backend.
+
+6. **Logging e Monitoramento**:
+   - Possibilita o registro de solicitações, respostas e eventos para monitoramento e análise.
+
+7. **Extensibilidade**:
+   - É altamente extensível e pode ser personalizado com middleware e plugins para atender às necessidades específicas do projeto.
+
+Exemplo de Configuração do Ocelot:
+
+Aqui está um exemplo básico de configuração do Ocelot em um arquivo `ocelot.json`:
+
+```json
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/{everything}",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+  ]
+}
+```
+
+Neste exemplo, todas as solicitações recebidas em `/api/{everything}` serão roteadas para `http://localhost:5001/{everything}`.
+
+Vantagens do Ocelot:
+
+1. **Simplicidade de Configuração**:
+   - Fácil de configurar e usar, reduzindo a complexidade na construção de gateways de API.
+
+2. **Flexibilidade**:
+   - Oferece flexibilidade para rotear, autenticar, autorizar e transformar solicitações e respostas conforme necessário.
+
+3. **Padrões de Segurança**:
+   - Suporta padrões de segurança como OAuth, JWT e OpenID Connect para autenticação e autorização.
+
+4. **Desempenho**:
+   - Pode melhorar o desempenho ao cache de respostas e otimização de solicitações, reduzindo o tempo de resposta.
+
+5. **Comunidade Ativa**:
+   - Tem uma comunidade ativa de desenvolvedores que contribuem com melhorias, correções de bugs e suporte.
+
 ## [C#] IronOCR
 <img src="https://ironsoftware.com/img/svgs/iron-ocr-logo.svg" height="77" align="right">
 
