@@ -153,6 +153,92 @@ namespace HelloWorld
 }
 ```
 
+# MSSQL - Microsoft SQL Server
+<img src="https://cdn.worldvectorlogo.com/logos/microsoft-sql-server-1.svg" height="77" align="right">
+
+O Microsoft SQL Server é um sistema de gerenciamento de banco de dados relacional (RDBMS) desenvolvido pela Microsoft. Ele é uma das principais plataformas de banco de dados usadas por organizações em todo o mundo para armazenar, manipular e recuperar dados. O Microsoft SQL Server é uma poderosa plataforma de banco de dados relacional amplamente utilizada em organizações de todos os tamanhos para armazenar, manipular e gerenciar dados de forma eficiente e confiável. Com sua robustez, segurança, desempenho e integração com outras tecnologias da Microsoft, o SQL Server continua sendo uma escolha popular para desenvolvedores e administradores de banco de dados em todo o mundo.
+
+Principais Características do Microsoft SQL Server:
+
+1. **Modelo Relacional**:
+   - O SQL Server utiliza um modelo relacional para armazenar dados em tabelas, que são organizadas em bancos de dados.
+
+2. **Linguagem SQL**:
+   - Suporte completo à Linguagem de Consulta Estruturada (SQL), que permite aos desenvolvedores e administradores realizar consultas e manipular dados de forma eficiente.
+
+3. **Gerenciamento de Dados**:
+   - Capacidade de armazenar, recuperar e manipular grandes volumes de dados de forma eficiente e confiável.
+
+4. **Segurança Integrada**:
+   - Recursos avançados de segurança, incluindo autenticação, autorização, criptografia e auditoria, para proteger os dados armazenados no banco de dados.
+
+5. **Escalabilidade e Desempenho**:
+   - Suporte a recursos de escalabilidade horizontal e vertical, bem como otimizações de desempenho para garantir um desempenho rápido e responsivo, mesmo em ambientes de alta carga.
+
+6. **Replicação e Alta Disponibilidade**:
+   - Recursos de replicação e clustering para garantir a disponibilidade contínua dos dados e evitar pontos únicos de falha.
+
+7. **Integração com Ferramentas Microsoft**:
+   - Integração nativa com outras ferramentas e tecnologias da Microsoft, como .NET Framework, Visual Studio, Azure e Power BI.
+
+8. **Suporte a Plataformas Múltiplas**:
+   - Disponibilidade em várias plataformas, incluindo Windows e Linux, proporcionando flexibilidade na escolha da plataforma de implantação.
+
+Edições do Microsoft SQL Server:
+
+O SQL Server está disponível em várias edições, cada uma com diferentes conjuntos de recursos e preços adequados a diferentes necessidades e orçamentos:
+
+1. **Enterprise**: Oferece os recursos mais avançados e escalabilidade para grandes empresas e aplicações críticas.
+2. **Standard**: Adequada para médias empresas e aplicações com requisitos de banco de dados menos exigentes.
+3. **Developer**: Destinada a desenvolvedores para uso em ambientes de desenvolvimento e teste.
+4. **Express**: Edição gratuita e leve, ideal para pequenas aplicações e desenvolvimento.
+5. **Web**: Projetada para hospedagem de sites e aplicações web.
+
+Componentes do SQL Server:
+
+O SQL Server consiste em vários componentes principais, incluindo:
+
+1. **Database Engine**: Responsável pelo armazenamento, processamento e segurança dos dados.
+2. **Analysis Services**: Fornece serviços de análise e mineração de dados para tomada de decisões empresariais.
+3. **Integration Services**: Facilita a integração de dados entre sistemas heterogêneos.
+4. **Reporting Services**: Permite a criação, distribuição e gerenciamento de relatórios.
+5. **Machine Learning Services**: Permite a integração de algoritmos de aprendizado de máquina diretamente no banco de dados.
+
+Exemplo de Uso do Microsoft SQL Server:
+
+Aqui está um exemplo simples de criação de uma tabela e inserção de dados usando SQL Server Management Studio (SSMS):
+
+```sql
+-- Criar uma nova tabela
+CREATE TABLE Clientes (
+    ClienteID INT PRIMARY KEY,
+    Nome NVARCHAR(100),
+    Email NVARCHAR(100)
+);
+
+-- Inserir dados na tabela
+INSERT INTO Clientes (ClienteID, Nome, Email)
+VALUES (1, 'João', 'joao@example.com'),
+       (2, 'Maria', 'maria@example.com');
+```
+
+Vantagens do Microsoft SQL Server:
+
+1. **Robustez e Confiabilidade**:
+   - Uma plataforma madura e confiável com uma ampla gama de recursos para atender às necessidades de empresas de todos os tamanhos.
+
+2. **Desempenho**:
+   - Oferece otimizações de desempenho para garantir uma resposta rápida mesmo em ambientes de alta carga.
+
+3. **Segurança**:
+   - Recursos avançados de segurança para proteger os dados sensíveis contra ameaças internas e externas.
+
+4. **Integração com Ferramentas Microsoft**:
+   - Integração perfeita com outras ferramentas e tecnologias da Microsoft, facilitando o desenvolvimento e administração de aplicações.
+
+5. **Escalabilidade**:
+   - Capacidade de escalar verticalmente e horizontalmente para lidar com o crescimento dos dados e das demandas da aplicação.
+  
 # 🖥️ [C#] Windows Forms Application
 <img src="https://github.com/IsaacAlves7/dotnet/assets/61624336/419ce8b2-291e-4c17-8872-1825c192d830" height="77" align="right">
 
@@ -339,33 +425,38 @@ using (var context = new MyDbContext())
 Operações Comuns com LINQ:
 
 1. **Filtragem**: `where`
+   
    ```csharp
    var result = from item in collection
                 where item.Property == someValue
                 select item;
    ```
 
-2. **Ordenação**: `order by`
+3. **Ordenação**: `order by`
+
    ```csharp
    var result = from item in collection
                 orderby item.Property
                 select item;
    ```
 
-3. **Projeção**: `select`
+4. **Projeção**: `select`
+
    ```csharp
    var result = from item in collection
                 select new { item.Property1, item.Property2 };
    ```
 
-4. **Agrupamento**: `group by`
+5. **Agrupamento**: `group by`
+
    ```csharp
    var result = from item in collection
                 group item by item.Property into grouped
                 select grouped;
    ```
 
-5. **Junções**: `join`
+6. **Junções**: `join`
+
    ```csharp
    var result = from item1 in collection1
                 join item2 in collection2
