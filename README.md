@@ -437,10 +437,160 @@ class Program
 Neste exemplo, o Serilog é configurado para escrever logs tanto no console quanto em um arquivo, com rotação diária dos arquivos de log. Os métodos `Log.Information`, `Log.Warning` e `Log.Error` são usados para registrar mensagens de log com diferentes níveis de severidade.
 
 # 🔵 ASP.NET
-<div align="center"><img src="https://symbols.getvecta.com/stencil_88/76_microsoft-net-vertical.9591843503.svg" height="177"></div><br \>
+<img src="https://codeopinion.com/wp-content/uploads/2018/07/Bitmap-MEDIUM_ASP.NET-Core-Logo_2colors_Square_RGB.png" height="77" align="right">
 
-# 🟦 ASP.NET Core
-<div align="center"><img src="https://codeopinion.com/wp-content/uploads/2018/07/Bitmap-MEDIUM_ASP.NET-Core-Logo_2colors_Square_RGB.png" height="177"></div><br \>
+**ASP.NET** é uma estrutura de desenvolvimento web da Microsoft usada para criar aplicativos web dinâmicos e robustos. Faz parte da plataforma .NET e permite a criação de sites, serviços web e aplicações web. ASP.NET suporta várias abordagens de desenvolvimento, incluindo Web Forms, MVC (Model-View-Controller), Web API e Razor Pages. ASP.NET é uma plataforma poderosa e flexível para o desenvolvimento de aplicações web. Com suporte para várias abordagens e padrões, juntamente com uma forte integração com a plataforma .NET, oferece um ambiente robusto e produtivo para criar desde pequenos sites até aplicações web complexas e escaláveis.
+
+Principais Características do ASP.NET:
+
+1. **Desenvolvimento Baseado em Servidor**:
+   - ASP.NET permite a execução de código no servidor, o que gera o HTML enviado ao cliente (navegador). Isso facilita a criação de páginas dinâmicas e interativas.
+
+2. **Componentes Reutilizáveis**:
+   - Fornece uma vasta gama de componentes de UI e lógica de negócios que podem ser reutilizados em diferentes partes da aplicação.
+
+3. **Modelos de Desenvolvimento**:
+   - **Web Forms**: Abordagem tradicional, similar ao desenvolvimento de aplicativos desktop, com componentes de arrastar e soltar.
+   - **MVC (Model-View-Controller)**: Separação clara entre lógica de negócios, interface de usuário e controle de fluxo, facilitando o desenvolvimento e manutenção.
+   - **Web API**: Focado na criação de serviços HTTP que podem ser consumidos por diferentes clientes, como navegadores e dispositivos móveis.
+   - **Razor Pages**: Abordagem simples e baseada em páginas, ideal para páginas de UI que não exigem a complexidade do MVC.
+
+4. **Segurança Integrada**:
+   - Suporte integrado para autenticação, autorização e proteção contra ataques comuns (como XSS e CSRF).
+
+5. **Performance e Escalabilidade**:
+   - ASP.NET Core, a versão mais recente, é otimizada para alta performance e pode ser executada em múltiplas plataformas (Windows, Linux, macOS).
+
+6. **Ferramentas de Desenvolvimento**:
+   - Excelente integração com o Visual Studio, oferecendo ferramentas poderosas de depuração, testes e implantação.
+
+Exemplo de Aplicação ASP.NET:
+
+Aqui está um exemplo básico usando ASP.NET Core MVC para criar uma aplicação simples.
+
+Passo 1: Criar um Novo Projeto ASP.NET Core MVC
+
+No Visual Studio:
+1. Selecione **File** > **New** > **Project**.
+2. Escolha **ASP.NET Core Web Application** e clique em **Next**.
+3. Nomeie o projeto, selecione **Web Application (Model-View-Controller)** e clique em **Create**.
+
+Passo 2: Estrutura de Diretórios
+
+O projeto criado terá a seguinte estrutura:
+- **Controllers**: Contém controladores que gerenciam a lógica da aplicação.
+- **Views**: Contém as views (interfaces de usuário) que são renderizadas.
+- **Models**: Contém modelos que representam dados da aplicação.
+
+Passo 3: Criar um Controlador
+
+Adicione um controlador chamado `HomeController` em `Controllers/HomeController.cs`:
+```csharp
+using Microsoft.AspNetCore.Mvc;
+
+public class HomeController : Controller
+{
+    public IActionResult Index()
+    {
+        ViewData["Message"] = "Hello, ASP.NET Core!";
+        return View();
+    }
+}
+```
+
+Passo 4: Criar uma View
+
+Adicione uma view chamada `Index` em `Views/Home/Index.cshtml`:
+```html
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>@ViewData["Message"]</h1>
+```
+
+Passo 5: Executar a Aplicação
+
+Pressione `F5` ou clique em **Run** para executar a aplicação. O navegador deve exibir a mensagem "Hello, ASP.NET Core!".
+
+Vantagens do ASP.NET:
+
+1. **Produtividade**:
+   - Ferramentas e frameworks que aceleram o desenvolvimento.
+   
+2. **Flexibilidade**:
+   - Suporte para múltiplas arquiteturas e padrões de desenvolvimento.
+
+3. **Comunidade e Suporte**:
+   - Grande comunidade de desenvolvedores e vasto número de recursos e bibliotecas disponíveis.
+
+4. **Desempenho**:
+   - ASP.NET Core é conhecido por seu alto desempenho e capacidade de escalar em ambientes de produção.
+
+Temos também o **ASP.NET Core** que é uma versão moderna, multiplataforma e de alto desempenho do ASP.NET, desenvolvida pela Microsoft. É uma reformulação completa do ASP.NET tradicional, projetada para ser leve, modular e eficiente, com o objetivo de atender às necessidades modernas de desenvolvimento de aplicações web.
+
+ASP.NET Core representa uma evolução significativa em relação ao ASP.NET tradicional. Com sua modularidade, desempenho otimizado, e suporte multiplataforma, ASP.NET Core é a escolha recomendada para novos desenvolvimentos. ASP.NET tradicional ainda é relevante para manutenção de aplicações existentes, mas para novos projetos, ASP.NET Core oferece vantagens substanciais em termos de flexibilidade, performance e modernidade.
+
+O ASP.NET e ASP.NET Core são ambas estruturas de desenvolvimento web da Microsoft, mas elas diferem significativamente em termos de arquitetura, capacidades e enfoque. Aqui estão as principais diferenças entre elas:
+
+ASP.NET
+
+1. **Plataforma**:
+   - ASP.NET é construído sobre o .NET Framework e é projetado para funcionar apenas no ambiente Windows.
+
+2. **Desempenho**:
+   - O ASP.NET tradicional é menos eficiente em termos de desempenho em comparação ao ASP.NET Core devido à sua arquitetura mais pesada e dependência do .NET Framework.
+
+3. **Modularidade**:
+   - ASP.NET não é tão modular quanto o ASP.NET Core. Ele é uma estrutura monolítica, o que significa que você não pode escolher os componentes que deseja usar; você precisa levar todo o framework.
+
+4. **Tipos de Aplicações**:
+   - ASP.NET suporta várias abordagens como Web Forms, MVC, e Web API, mas essas abordagens são separadas e têm diferentes padrões de programação.
+
+5. **Desenvolvimento de Aplicações**:
+   - Mais adequado para aplicações que serão implantadas em servidores Windows. Tem forte integração com IIS (Internet Information Services).
+
+6. **Atualização e Suporte**:
+   - O desenvolvimento e atualizações do ASP.NET tradicional têm sido mais lentos e limitados, pois a Microsoft está focando mais no ASP.NET Core para novos desenvolvimentos.
+
+ASP.NET Core
+
+1. **Plataforma**:
+   - ASP.NET Core é multiplataforma, funcionando em Windows, Linux e macOS. Ele é construído sobre o .NET Core (ou mais recentemente, o .NET 5+).
+
+2. **Desempenho**:
+   - ASP.NET Core é otimizado para alto desempenho e eficiência. Ele utiliza um pipeline de middleware leve e modular que melhora o desempenho geral.
+
+3. **Modularidade**:
+   - Extremamente modular, permitindo que os desenvolvedores incluam apenas os componentes que são necessários para a aplicação. Isso reduz a sobrecarga e melhora o desempenho.
+
+4. **Tipos de Aplicações**:
+   - ASP.NET Core unifica a abordagem para MVC, Web API, e Razor Pages, proporcionando uma experiência de desenvolvimento mais consistente.
+
+5. **Desenvolvimento de Aplicações**:
+   - Melhor suporte para contêineres, como Docker, facilitando a criação e implantação de aplicativos em ambientes de nuvem e em vários sistemas operacionais.
+
+6. **Atualização e Suporte**:
+   - A Microsoft está ativamente desenvolvendo e aprimorando o ASP.NET Core, tornando-o a principal plataforma para novos desenvolvimentos web. Recebe atualizações frequentes e novos recursos.
+
+7. **Injeção de Dependência**:
+   - Suporte embutido para injeção de dependência (DI), permitindo a construção de aplicações mais testáveis e configuráveis.
+
+8. **Middleware**:
+   - Utiliza middleware configurável e personalizável para compor o pipeline de processamento de solicitações, oferecendo maior controle sobre o comportamento do aplicativo.
+
+Comparação Resumida:
+
+| Característica          | ASP.NET                            | ASP.NET Core                          |
+|-------------------------|------------------------------------|---------------------------------------|
+| Plataforma              | Windows                            | Multiplataforma (Windows, Linux, macOS)|
+| Desempenho              | Menos eficiente                    | Altamente otimizado                   |
+| Modularidade            | Monolítico                         | Altamente modular                     |
+| Tipos de Aplicações     | Web Forms, MVC, Web API separados  | Unificação de MVC, Web API, Razor Pages|
+| Suporte para Contêineres| Limitado                           | Suporte nativo para Docker            |
+| Atualizações            | Mais lentas                        | Atualizações frequentes               |
+| Injeção de Dependência  | Não embutido                       | Embutido                              |
+| Middleware              | Não configurável                   | Configurável                          |
 
 # 🟩 Entity Framework
 <div align="center"><img src="https://www.captivix.com/wp-content/uploads/2019/07/outsource-vs-partnership-captivix.jpg" width="100%"></div><br \>
