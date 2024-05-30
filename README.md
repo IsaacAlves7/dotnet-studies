@@ -198,13 +198,243 @@ namespace HelloWorld
 ```
 
 # 🖥️ [C#] Windows Forms Application
-<img src="" height="77" align="right">
+<img src="https://github.com/IsaacAlves7/dotnet/assets/61624336/419ce8b2-291e-4c17-8872-1825c192d830" height="77" align="right">
 
+O **Windows Forms Application** (Aplicação em janela para formulários), frequentemente referida como WinForms, é uma plataforma de desenvolvimento de aplicativos gráficos baseada no Windows, fornecida pelo .NET Framework. Introduzida pela Microsoft, ela permite a criação de interfaces de usuário (UI) ricas e baseadas em eventos para aplicativos de desktop. Windows Forms é uma plataforma robusta e fácil de usar para o desenvolvimento de aplicações desktop no Windows. Ideal para criar interfaces de usuário rapidamente e integrar com o .NET Framework, continua sendo uma escolha popular para muitos desenvolvedores, especialmente em manutenção de software legado e projetos internos corporativos.
+
+Características Principais do Windows Forms:
+
+1. **Controles de UI**:
+   - WinForms oferece uma ampla gama de controles de interface do usuário, como botões, caixas de texto, labels, grids, listas, e muito mais, que podem ser facilmente arrastados e soltos no formulário durante o design.
+
+2. **Design Visual**:
+   - Utiliza um designer visual no Visual Studio, permitindo aos desenvolvedores arrastar e soltar componentes de UI no formulário e configurar suas propriedades visualmente.
+
+3. **Eventos e Manipulação de Eventos**:
+   - Baseado em um modelo de programação orientado a eventos, onde ações do usuário, como cliques de botão e entradas de teclado, disparam eventos que podem ser manipulados por código.
+
+4. **Integração com .NET Framework**:
+   - Aproveita o poder do .NET Framework para acessar bibliotecas e funcionalidades como acesso a dados, redes, manipulação de arquivos, e mais.
+
+5. **Customização e Estilização**:
+   - Permite a personalização extensa dos controles e do formulário através de propriedades, herança de classes, e sobrecarga de métodos de desenho.
+
+6. **Suporte ao Legacy**:
+   - É uma tecnologia madura, amplamente utilizada para a manutenção e desenvolvimento de aplicativos de desktop herdados.
+
+Estrutura de um Windows Forms Application:
+
+Um aplicativo WinForms típico consiste em uma ou mais janelas ou "forms". Cada form é representado por uma classe que herda de `System.Windows.Forms.Form`.
+
+Exemplo Básico:
+
+Aqui está um exemplo simples de uma aplicação Windows Forms que exibe uma mensagem "Hello, World!" quando um botão é clicado.
+
+1. **Criação do Formulário**:
+   - Primeiro, você cria um novo projeto Windows Forms Application no Visual Studio.
+
+2. **Adicionar Controles**:
+   - No designer, arraste um `Button` da Toolbox para o formulário.
+
+3. **Configurar Eventos**:
+   - Clique duas vezes no botão para gerar o evento `Click` e escrever o código.
+
+Código do Formulário:
+
+**Form1.cs**:
+```csharp
+using System;
+using System.Windows.Forms;
+
+public class Form1 : Form
+{
+    private Button button1;
+
+    public Form1()
+    {
+        // Inicialização do botão
+        button1 = new Button();
+        button1.Size = new System.Drawing.Size(100, 50);
+        button1.Location = new System.Drawing.Point(100, 100);
+        button1.Text = "Click Me";
+        button1.Click += new EventHandler(button1_Click);
+
+        // Adicionar o botão ao formulário
+        Controls.Add(button1);
+    }
+
+    // Manipulador de eventos para o clique do botão
+    private void button1_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show("Hello, World!");
+    }
+
+    [STAThread]
+    public static void Main()
+    {
+        Application.EnableVisualStyles();
+        Application.Run(new Form1());
+    }
+}
+```
+
+Vantagens do Windows Forms:
+
+1. **Facilidade de Uso**:
+   - O designer visual e a ampla gama de controles tornam a criação de interfaces de usuário rápida e intuitiva.
+
+2. **Integração com Visual Studio**:
+   - Ferramentas poderosas e recursos de depuração do Visual Studio.
+
+3. **Maturidade**:
+   - Tecnologia bem estabelecida com uma grande comunidade de desenvolvedores e muitos recursos disponíveis.
+
+4. **Desempenho**:
+   - Adequado para aplicativos de desktop que requerem interações rápidas e responsivas.
+
+Limitações do Windows Forms:
+
+1. **Plataforma Específica**:
+   - Funciona apenas no ambiente Windows.
+
+2. **Design Responsivo Limitado**:
+   - Menos suporte para design responsivo e moderno em comparação com tecnologias mais recentes como WPF (Windows Presentation Foundation) ou UWP (Universal Windows Platform).
+
+3. **Tecnologia Legada**:
+   - Embora ainda seja suportada, não é mais o foco principal da Microsoft para novas aplicações de desktop, que agora estão voltadas para WPF e UWP.
+  
 # 🪒 [C#] Razor Pages
-<div align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/razor_1fa92.png"></div><br \>
+<img src="https://github.com/IsaacAlves7/dotnet/assets/61624336/c84580f8-7225-432b-911d-bb03dd80666b" height="77" align="right">
 
-# 🧵 Serilog
-<div align="center"><img src="https://serilog.net/img/serilog.png" height="177"></div><br \>
+**Razor Pages** é uma abordagem de desenvolvimento de aplicações web introduzida no ASP.NET Core, que facilita a criação de interfaces de usuário dinâmicas. Ao contrário do modelo MVC (Model-View-Controller), Razor Pages foca em um design orientado a páginas, simplificando o desenvolvimento de páginas da web e mantendo o código mais coeso e intuitivo. Razor Pages é uma abordagem moderna e eficiente para o desenvolvimento de páginas da web no ASP.NET Core, especialmente útil para aplicações que se beneficiam de uma estrutura orientada a páginas mais simples e direta. Ele combina a flexibilidade da sintaxe Razor com a organização modular de modelos de página, facilitando o desenvolvimento e a manutenção de aplicações web dinâmicas.
+
+Características Principais do Razor Pages:
+
+1. **Abordagem Baseada em Páginas**:
+   - Cada página Razor é composta por um arquivo `.cshtml` (para a marcação HTML e o código Razor) e um arquivo de modelo de página associado (`PageModel`, geralmente com extensão `.cshtml.cs`).
+
+2. **Sintaxe Razor**:
+   - Usa a sintaxe Razor, que permite a combinação de código C# com HTML de maneira elegante e fluida.
+
+3. **Estrutura de Arquivos**:
+   - Os arquivos `.cshtml` e seus modelos de página correspondentes são armazenados na pasta `Pages` por padrão.
+
+4. **Binding de Dados e Manipulação**:
+   - Permite a vinculação de dados diretamente no arquivo de modelo de página (`PageModel`), facilitando a manipulação de dados e lógica de negócios.
+
+5. **Handlers**:
+   - Em vez de controladores MVC, Razor Pages usa "handlers" (como `OnGet`, `OnPost`, etc.) para lidar com solicitações HTTP, proporcionando uma maneira mais direta de mapear ações às solicitações.
+
+6. **Encapsulamento de Lógica**:
+   - A lógica da página é encapsulada no modelo de página, o que promove uma organização mais clara e modular do código.
+
+Exemplo Básico de Razor Page:
+
+Aqui está um exemplo simples de uma Razor Page que exibe uma mensagem de boas-vindas.
+
+Arquivo `Index.cshtml`:
+
+```html
+@page
+@model IndexModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>@Model.Message</h1>
+</body>
+</html>
+```
+
+Arquivo `Index.cshtml.cs`:
+
+```csharp
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+public class IndexModel : PageModel
+{
+    public string Message { get; private set; }
+
+    public void OnGet()
+    {
+        Message = "Welcome to Razor Pages!";
+    }
+}
+```
+
+Neste exemplo:
+- O arquivo `Index.cshtml` contém a marcação HTML e o código Razor que exibe a mensagem.
+- O arquivo `Index.cshtml.cs` é o modelo de página que contém a lógica para a página, onde a mensagem "Welcome to Razor Pages!" é definida no método `OnGet`.
+
+Vantagens do Razor Pages:
+
+1. **Simplicidade e Intuitividade**:
+   - Menos arquivos e uma estrutura mais simples em comparação ao padrão MVC, tornando-o ideal para páginas da web que não necessitam de uma arquitetura complexa.
+
+2. **Desempenho**:
+   - Melhor desempenho devido à menor complexidade e sobrecarga.
+
+3. **Produtividade**:
+   - Mais rápido para desenvolver páginas simples, pois a lógica e a apresentação estão mais próximas e coesas.
+
+# 🧵 [C#] Serilog
+<img src="https://serilog.net/img/serilog.png" height="77" align="right">
+
+**Serilog** é uma biblioteca de logging para aplicativos .NET que permite a gravação estruturada de logs. Diferente de sistemas de logging tradicionais, que geralmente gravam logs como texto simples, o Serilog permite que os dados de log sejam estruturados e enriquecidos com propriedades adicionais. Isso facilita a consulta, análise e correlação de eventos nos logs. Serilog é uma ferramenta poderosa e flexível para logging em aplicativos .NET, permitindo registros estruturados e integrando-se facilmente com diversos sistemas de armazenamento e análise de logs.
+
+Principais Características do Serilog:
+
+1. **Logging Estruturado**:
+   - Em vez de apenas texto, Serilog permite registrar dados em um formato estruturado, como JSON. Isso facilita a busca e análise dos logs.
+
+2. **Sinks**:
+   - Serilog suporta múltiplos "sinks", que são destinos onde os logs podem ser enviados. Exemplos de sinks incluem arquivos, bancos de dados, consoles, sistemas de monitoramento, e serviços de cloud como Azure e AWS.
+
+3. **Enriquecimento de Logs**:
+   - Serilog permite adicionar propriedades extras aos logs, como IDs de correlação, informações de usuário, contexto de execução, etc.
+
+4. **Configuração Flexível**:
+   - Pode ser configurado por código ou usando arquivos de configuração como JSON ou XML.
+
+5. **Suporte para Múltiplos Formatos**:
+   - Além de JSON, Serilog pode gravar logs em formatos como texto simples, XML, e outros, dependendo do sink usado.
+
+6. **Desempenho**:
+   - É otimizado para alto desempenho e pode ser usado em aplicativos que exigem logging em tempo real.
+
+Exemplo de Uso Básico:
+
+Aqui está um exemplo simples de como configurar e usar o Serilog em um aplicativo .NET:
+
+```csharp
+using Serilog;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Configurando o Serilog
+        Log.Logger = new LoggerConfiguration()
+            .WriteTo.Console()
+            .WriteTo.File("logs/myapp.txt", rollingInterval: RollingInterval.Day)
+            .CreateLogger();
+
+        // Usando o Serilog para registrar logs
+        Log.Information("Hello, Serilog!");
+        Log.Warning("This is a warning.");
+        Log.Error("An error occurred.");
+
+        // Finalizando o Logger
+        Log.CloseAndFlush();
+    }
+}
+```
+
+Neste exemplo, o Serilog é configurado para escrever logs tanto no console quanto em um arquivo, com rotação diária dos arquivos de log. Os métodos `Log.Information`, `Log.Warning` e `Log.Error` são usados para registrar mensagens de log com diferentes níveis de severidade.
 
 # 🔵 ASP.NET
 <div align="center"><img src="https://symbols.getvecta.com/stencil_88/76_microsoft-net-vertical.9591843503.svg" height="177"></div><br \>
