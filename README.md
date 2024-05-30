@@ -742,7 +742,7 @@ Vantagens do Razor Pages:
 
    - Mais rápido para desenvolver páginas simples, pois a lógica e a apresentação estão mais próximas e coesas.
 
-## Entity Framework
+## [C#] Entity Framework
 <img src="https://github.com/IsaacAlves7/dotnet/assets/61624336/dc7ebf76-f506-4e7f-8d47-236cd16e0533" height="77" align="right">
 
 O **Entity Framework (EF)** é uma biblioteca de mapeamento objeto-relacional (ORM) desenvolvida pela Microsoft para a plataforma .NET. Ele permite que os desenvolvedores trabalhem com dados relacionais usando objetos .NET, eliminando a necessidade de escrever código SQL diretamente. O Entity Framework facilita o desenvolvimento de aplicações de dados, automatizando muitas tarefas comuns associadas ao acesso a bancos de dados. Entity Framework é uma poderosa ferramenta ORM para desenvolvedores .NET, simplificando o acesso e manipulação de dados em aplicações. Com suporte a múltiplos modelos de desenvolvimento, consultas LINQ e migrações, ele melhora a produtividade e manutenibilidade dos aplicativos, embora possa ter algumas limitações de desempenho e flexibilidade em comparação com o acesso direto ao SQL.
@@ -854,8 +854,82 @@ Limitações do Entity Framework:
 3. **Flexibilidade**:
    - Pode ser menos flexível para certos tipos de consultas ou operações avançadas de banco de dados.
 
-# 📓 IronOCR
-<div align="center"><img src="https://ironsoftware.com/img/svgs/iron-ocr-logo.svg" height="177"></div><br \>
+## [C#] IronOCR
+<img src="https://ironsoftware.com/img/svgs/iron-ocr-logo.svg" height="77" align="right">
+
+O **IronOCR** é uma biblioteca .NET que fornece funcionalidades avançadas de reconhecimento óptico de caracteres (OCR). Ele permite que os desenvolvedores adicionem capacidades de OCR a suas aplicações .NET de forma simples e eficiente, permitindo a extração de texto de imagens e documentos digitalizados. O IronOCR é uma biblioteca .NET poderosa e fácil de usar para reconhecimento óptico de caracteres (OCR). Com sua capacidade de extrair texto de imagens e documentos digitalizados, alta precisão e suporte para vários idiomas, o IronOCR é uma escolha popular para desenvolvedores que precisam integrar funcionalidades de OCR em suas aplicações .NET.
+
+Principais Características do IronOCR:
+
+1. **Reconhecimento de Texto em Imagens**:
+   - Capacidade de extrair texto de imagens digitais, incluindo formatos como JPEG, PNG, BMP e TIFF.
+
+2. **Suporte a Documentos Digitalizados**:
+   - Reconhecimento de texto em documentos digitalizados, como PDFs, usando OCR para converter o conteúdo do documento em texto pesquisável e editável.
+
+3. **Suporte Multilíngue**:
+   - Reconhece texto em várias línguas e caracteres especiais, facilitando o processamento de documentos em diferentes idiomas.
+
+4. **Processamento de Alta Qualidade**:
+   - Oferece algoritmos avançados para garantir alta precisão no reconhecimento de texto, mesmo em documentos com baixa qualidade de imagem ou distorções.
+
+5. **API Fácil de Usar**:
+   - API simples e intuitiva que permite aos desenvolvedores integrar facilmente funcionalidades de OCR em suas aplicações .NET.
+
+6. **Configurações Avançadas**:
+   - Opções para configurar o comportamento do OCR, como idioma, resolução de imagem e algoritmos de reconhecimento.
+
+7. **Suporte para .NET Core e .NET Framework**:
+   - Compatibilidade com ambas as plataformas .NET, permitindo que desenvolvedores usem o IronOCR em uma ampla gama de projetos.
+
+8. **Licença de Uso Flexível**:
+   - Disponível em diferentes planos de licenciamento para atender às necessidades de desenvolvedores individuais, equipes e empresas.
+
+Exemplo de Uso do IronOCR:
+
+Aqui está um exemplo simples de como usar o IronOCR para reconhecer texto em uma imagem:
+
+```csharp
+using IronOcr;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Carregar imagem
+        var image = IronOcr.ImageToTextRenderer.LoadImageFromFile("image.png");
+
+        // Criar um objeto IronOCR
+        var ocr = new IronTesseract();
+
+        // Realizar OCR na imagem
+        var result = ocr.Read(image);
+
+        // Exibir o texto extraído
+        Console.WriteLine(result.Text);
+    }
+}
+```
+
+Vantagens do IronOCR:
+
+1. **Facilidade de Uso**:
+   - API simples e intuitiva, facilitando a adição de funcionalidades de OCR em aplicações .NET.
+
+2. **Alta Precisão**:
+   - Utiliza algoritmos avançados para garantir alta precisão no reconhecimento de texto, mesmo em condições desafiadoras.
+
+3. **Suporte Multilíngue**:
+   - Reconhece texto em uma ampla variedade de idiomas e caracteres especiais.
+
+4. **Suporte para Diversos Formatos de Imagem**:
+   - Capacidade de trabalhar com uma variedade de formatos de imagem, incluindo JPEG, PNG, BMP, TIFF e PDF.
+
+5. **Compatibilidade com .NET Core e .NET Framework**:
+   - Pode ser utilizado em projetos .NET Core e .NET Framework, oferecendo flexibilidade para desenvolvedores.
+
+6. **Documentação Abundante**:
+   - Disponibilidade de documentação detalhada, exemplos de código e suporte técnico para ajudar os desenvolvedores a começar rapidamente.
 
 # 🗺️ ASP.NET Core RoadMap
 ![1655838503122](https://user-images.githubusercontent.com/61624336/174923491-74802096-f33c-4296-a1fa-4eedb3934591.jpg)
