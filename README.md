@@ -39,8 +39,6 @@ Principais características do C#:
    - **Polimorfismo**: Permite que métodos em classes derivadas tenham comportamentos diferentes.
    - **Encapsulamento**: Permite esconder os detalhes internos de uma classe e expor apenas as funcionalidades essenciais.
 
-<img src="https://github.com/IsaacAlves7/dotnet/assets/61624336/9785fdaf-392f-4b11-83bd-72709ed8513d" align="right" height="277">
-
 2. **Tipagem Forte e Estática**:
    - **Verificação de Tipos em Tempo de Compilação**: Erros de tipo são detectados em tempo de compilação, o que reduz erros em tempo de execução.
    - **Tipagem Estática**: Os tipos das variáveis são definidos em tempo de compilação e não podem ser alterados.
@@ -312,7 +310,146 @@ Limitações do Windows Forms:
 
 3. **Tecnologia Legada**:
    - Embora ainda seja suportada, não é mais o foco principal da Microsoft para novas aplicações de desktop, que agora estão voltadas para WPF e UWP.
-  
+
+## [C#] LINQ  
+<img src="https://github.com/IsaacAlves7/dotnet/assets/61624336/9785fdaf-392f-4b11-83bd-72709ed8513d" align="right" height="377">
+
+**LINQ**, que significa **Language Integrated Query** (Consulta Integrada à Linguagem), é uma tecnologia do .NET que permite aos desenvolvedores realizar consultas a coleções de dados de maneira direta e intuitiva usando a sintaxe das linguagens de programação .NET, como C# e VB.NET. Introduzido no .NET Framework 3.5, o LINQ oferece uma forma unificada e consistente de acessar diferentes fontes de dados, incluindo objetos na memória, bancos de dados relacionais, XML e mais. LINQ é uma poderosa ferramenta dentro do ecossistema .NET, que simplifica a interação com coleções de dados, sejam elas na memória, em bancos de dados, ou em documentos XML. Sua sintaxe expressiva e integração com a linguagem de programação melhora a produtividade e a qualidade do código, tornando-o uma escolha popular entre desenvolvedores .NET para manipulação de dados.
+
+Características Principais do LINQ:
+
+1. **Consistência**:
+   - LINQ oferece uma sintaxe consistente para consultas a diferentes tipos de dados, proporcionando uma experiência uniforme independentemente da fonte de dados.
+
+2. **Tipos de Dados Suportados**:
+   - **LINQ to Objects**: Para coleções na memória, como listas e arrays.
+   - **LINQ to SQL**: Para consultas a bancos de dados SQL Server, traduzindo consultas LINQ para SQL.
+   - **LINQ to Entities**: Para uso com o Entity Framework, permitindo consultas a bancos de dados relacionais.
+   - **LINQ to XML**: Para manipulação e consulta de documentos XML.
+   - **LINQ to DataSet**: Para consultas a DataSets em aplicações ADO.NET.
+
+3. **Intellisense e Verificação de Tipos**:
+   - A integração de LINQ com a linguagem de programação permite o uso de Intellisense e verificação de tipos em tempo de compilação, reduzindo erros de sintaxe e melhorando a produtividade do desenvolvedor.
+
+4. **Expressividade**:
+   - A sintaxe de consulta LINQ é expressiva e poderosa, permitindo a realização de operações complexas de filtragem, ordenação, agrupamento e projeção de dados.
+
+Sintaxe de LINQ:
+
+LINQ pode ser escrito usando duas sintaxes principais:
+
+- **Sintaxe de Consulta** (Query Syntax)
+
+- **Sintaxe de Método** (Method Syntax)
+
+Exemplo de LINQ to Objects:
+
+Sintaxe de Consulta:
+
+```csharp
+int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+var evenNumbers = from num in numbers
+                  where num % 2 == 0
+                  select num;
+
+foreach (var num in evenNumbers)
+{
+    Console.WriteLine(num);
+}
+```
+
+Sintaxe de Método:
+
+```csharp
+int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+var evenNumbers = numbers.Where(num => num % 2 == 0);
+
+foreach (var num in evenNumbers)
+{
+    Console.WriteLine(num);
+}
+```
+
+Exemplo de LINQ to SQL:
+
+```csharp
+using (var context = new MyDbContext())
+{
+    var query = from product in context.Products
+                where product.Price > 100
+                select product;
+
+    foreach (var product in query)
+    {
+        Console.WriteLine($"{product.Name} - {product.Price}");
+    }
+}
+```
+
+Operações Comuns com LINQ:
+
+1. **Filtragem**: `where`
+   ```csharp
+   var result = from item in collection
+                where item.Property == someValue
+                select item;
+   ```
+
+2. **Ordenação**: `order by`
+   ```csharp
+   var result = from item in collection
+                orderby item.Property
+                select item;
+   ```
+
+3. **Projeção**: `select`
+   ```csharp
+   var result = from item in collection
+                select new { item.Property1, item.Property2 };
+   ```
+
+4. **Agrupamento**: `group by`
+   ```csharp
+   var result = from item in collection
+                group item by item.Property into grouped
+                select grouped;
+   ```
+
+5. **Junções**: `join`
+   ```csharp
+   var result = from item1 in collection1
+                join item2 in collection2
+                on item1.Key equals item2.Key
+                select new { item1, item2 };
+   ```
+
+Vantagens do LINQ:
+
+1. **Produtividade**:
+   - A sintaxe integrada e intuitiva facilita a escrita e a leitura de consultas.
+   
+2. **Redução de Erros**:
+   - Verificação de tipos em tempo de compilação ajuda a reduzir erros de tempo de execução.
+   
+3. **Consistência**:
+   - Um único conjunto de habilidades e sintaxe para consultar diferentes fontes de dados.
+   
+4. **Expressividade**:
+   - Consultas complexas podem ser expressas de maneira clara e concisa.
+
+Desvantagens do LINQ:
+
+1. **Desempenho**:
+   - Em alguns casos, pode haver impacto no desempenho devido à sobrecarga introduzida pela abstração do LINQ.
+   
+2. **Curva de Aprendizado**:
+   - Desenvolvedores que não estão familiarizados com a programação funcional podem encontrar dificuldades para aprender e usar LINQ de maneira eficaz.
+   
+3. **Dependência do ORM**:
+   - Para LINQ to SQL ou LINQ to Entities, a performance e a funcionalidade podem ser limitadas pelas capacidades do ORM subjacente.
+
 ## [C#] Serilog
 <img src="https://serilog.net/img/serilog.png" height="77" align="right">
 
@@ -706,7 +843,7 @@ Vantagens do Entity Framework:
 4. **Validação e Segurança**:
    - Integração com recursos de validação de dados e segurança, reduzindo o risco de erros e vulnerabilidades.
 
-### Limitações do Entity Framework:
+Limitações do Entity Framework:
 
 1. **Desempenho**:
    - Pode ser mais lento em comparação ao uso direto de SQL, especialmente para consultas complexas.
