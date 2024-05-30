@@ -458,7 +458,7 @@ Neste exemplo, o Serilog é configurado para escrever logs tanto no console quan
 # 🔵 ASP.NET
 <img src="https://codeopinion.com/wp-content/uploads/2018/07/Bitmap-MEDIUM_ASP.NET-Core-Logo_2colors_Square_RGB.png" height="77" align="right">
 
-**ASP.NET** é uma estrutura de desenvolvimento web da Microsoft usada para criar aplicativos web dinâmicos e robustos. Faz parte da plataforma .NET e permite a criação de sites, serviços web e aplicações web. ASP.NET suporta várias abordagens de desenvolvimento, incluindo Web Forms, MVC (Model-View-Controller), Web API e Razor Pages. ASP.NET é uma plataforma poderosa e flexível para o desenvolvimento de aplicações web. Com suporte para várias abordagens e padrões, juntamente com uma forte integração com a plataforma .NET, oferece um ambiente robusto e produtivo para criar desde pequenos sites até aplicações web complexas e escaláveis.
+**ASP.NET** é uma estrutura de desenvolvimento web da Microsoft usada para criar aplicativos web dinâmicos e robustos. Faz parte da plataforma .NET e permite a criação de sites, serviços web e aplicações web. <a href="https://user-images.githubusercontent.com/61624336/174923491-74802096-f33c-4296-a1fa-4eedb3934591.jpg">ASP.NET</a> suporta várias abordagens de desenvolvimento, incluindo Web Forms, MVC (Model-View-Controller), Web API e Razor Pages. ASP.NET é uma plataforma poderosa e flexível para o desenvolvimento de aplicações web. Com suporte para várias abordagens e padrões, juntamente com uma forte integração com a plataforma .NET, oferece um ambiente robusto e produtivo para criar desde pequenos sites até aplicações web complexas e escaláveis.
 
 Principais Características do ASP.NET:
 
@@ -930,6 +930,3 @@ Vantagens do IronOCR:
 
 6. **Documentação Abundante**:
    - Disponibilidade de documentação detalhada, exemplos de código e suporte técnico para ajudar os desenvolvedores a começar rapidamente.
-
-# 🗺️ ASP.NET Core RoadMap
-![1655838503122](https://user-images.githubusercontent.com/61624336/174923491-74802096-f33c-4296-a1fa-4eedb3934591.jpg)
