@@ -83,6 +83,8 @@ Principais Componentes do .NET Framework:
 6. **Common Language Specification (CLS)**:
    - **Especificação de Linguagem**: Conjunto de regras que linguagens de programação devem seguir para serem compatíveis com o .NET, facilitando a interoperabilidade.
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Visual_Studio_Icon_2019.svg" align="right" height="77">
+
 Ferramentas e IDEs: **Visual Studio** é o ambiente de desenvolvimento integrado (IDE) da Microsoft, Visual Studio, oferece um suporte extensivo para desenvolvimento com C# e .NET, incluindo ferramentas de depuração, designers visuais, e integração contínua.
 
 Versões do .NET: A plataforma .NET evoluiu ao longo dos anos e agora está disponível em diferentes formas:
