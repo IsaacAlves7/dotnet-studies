@@ -137,56 +137,6 @@ Lista todos os pacotes do sdk instalados na sua máquina:
 dotnet --list-sdks
 ```
 
-<img src="https://geeks.ms/wp-content/uploads/old-web-files/jalarcon/IISExpress_61AF1A62.jpg" height="77" align="right">
-
-O **IIS Express** é um web server (servidor web) para executar o código ASP.NET Framework na web, através da sua máquina local. IIS Express é um servidor web que foi projetado principalmente para facilitar o desenvolvimento e testes de aplicações web em um ambiente de desenvolvimento local. Ele oferece muitas das mesmas funcionalidades que o Internet Information Services (IIS) completo, mas com algumas diferenças importantes que o tornam mais adequado para desenvolvimento em vez de produção. 
-
-Características do IIS Express:
-
-1. **Facilidade de Uso**:
-
-   - **Instalação Simplificada**: Não requer permissões de administrador para instalação e configuração.
-   - **Integrado ao Visual Studio**: Funciona perfeitamente com o Visual Studio, facilitando o desenvolvimento e a depuração de aplicações web diretamente dentro do ambiente de desenvolvimento.
-
-3. **Funcionalidades de IIS**:
-
-   - **Compatibilidade**: Suporta muitas das funcionalidades do IIS completo, como suporte a ASP.NET, autenticação, e extensões.
-   - **Configuração Similar**: Usa arquivos de configuração semelhantes aos do IIS, permitindo uma fácil transição do desenvolvimento para o servidor de produção.
-
-5. **Ambiente de Desenvolvimento**:
-   
-   - **Focado no Desenvolvimento Local**: Otimizado para rodar localmente em um ambiente de desenvolvimento, proporcionando uma experiência leve e rápida para desenvolvedores.
-   - **Portabilidade**: Facilita a configuração de ambientes de desenvolvimento em diferentes máquinas sem a complexidade de configurar um servidor completo.
-
-Limitações do IIS Express para Produção:
-
-1. **Desempenho e Escalabilidade**:
-   
-   - **Desempenho Limitado**: Não é projetado para lidar com grandes volumes de tráfego ou altas cargas de trabalho como o IIS completo.
-   - **Recursos Limitados**: Não possui todas as otimizações de desempenho que o IIS completo oferece para ambientes de produção.
-
-3. **Segurança**:
-   
-   - **Segurança Restrita**: Embora suporte autenticação e outras funcionalidades de segurança, não é tão robusto quanto o IIS completo para ambientes de produção, que exigem níveis mais altos de segurança e controle.
-
-5. **Gestão e Monitoramento**:
-   
-   - **Ferramentas Limitadas**: Faltam algumas das ferramentas avançadas de gerenciamento, monitoramento e diagnóstico que estão disponíveis no IIS completo.
-
-Uso Adequado de IIS Express:
-
-**Desenvolvimento e Teste Local**:
-
-   - Ideal para desenvolvimento local de aplicações web.
-   - Facilita a depuração e o teste de funcionalidades antes da implantação em um servidor de produção.
-
-**Transição para Produção**:
-
-   - **IIS Completo**: Para ambientes de produção, é recomendado usar o IIS completo, que oferece melhor desempenho, segurança aprimorada, e ferramentas de gerenciamento avançadas.
-   - **Configuração Semelhante**: A transição do IIS Express para o IIS completo é facilitada pela similaridade nas configurações e suporte a funcionalidades.
-
-IIS Express é uma excelente ferramenta para desenvolvimento e teste de aplicações web, oferecendo uma experiência leve e fácil de usar para desenvolvedores. No entanto, para implantações em ambientes de produção, o IIS completo é a escolha apropriada, devido ao seu desempenho superior, robustez em termos de segurança e ferramentas avançadas de gerenciamento e monitoramento.
-
 ## Hello, World! - C#
 Aqui está um exemplo simples de um programa em C# que imprime `"Hello, World!"` na console:
 
@@ -660,6 +610,56 @@ Comparação Resumida:
 | Atualizações            | Mais lentas                        | Atualizações frequentes               |
 | Injeção de Dependência  | Não embutido                       | Embutido                              |
 | Middleware              | Não configurável                   | Configurável                          |
+
+## [C#] IIS Express
+<img src="https://geeks.ms/wp-content/uploads/old-web-files/jalarcon/IISExpress_61AF1A62.jpg" height="77" align="right">
+
+O **IIS Express** é um web server (servidor web) para executar o código ASP.NET Framework na web, através da sua máquina local. IIS Express é um servidor web que foi projetado principalmente para facilitar o desenvolvimento e testes de aplicações web em um ambiente de desenvolvimento local. Ele oferece muitas das mesmas funcionalidades que o Internet Information Services (IIS) completo, mas com algumas diferenças importantes que o tornam mais adequado para desenvolvimento em vez de produção. IIS Express é uma excelente ferramenta para desenvolvimento e teste de aplicações web, oferecendo uma experiência leve e fácil de usar para desenvolvedores. No entanto, para implantações em ambientes de produção, o IIS completo é a escolha apropriada, devido ao seu desempenho superior, robustez em termos de segurança e ferramentas avançadas de gerenciamento e monitoramento.
+
+Características do IIS Express:
+
+1. **Facilidade de Uso**:
+
+   - **Instalação Simplificada**: Não requer permissões de administrador para instalação e configuração.
+   - **Integrado ao Visual Studio**: Funciona perfeitamente com o Visual Studio, facilitando o desenvolvimento e a depuração de aplicações web diretamente dentro do ambiente de desenvolvimento.
+
+3. **Funcionalidades de IIS**:
+
+   - **Compatibilidade**: Suporta muitas das funcionalidades do IIS completo, como suporte a ASP.NET, autenticação, e extensões.
+   - **Configuração Similar**: Usa arquivos de configuração semelhantes aos do IIS, permitindo uma fácil transição do desenvolvimento para o servidor de produção.
+
+5. **Ambiente de Desenvolvimento**:
+   
+   - **Focado no Desenvolvimento Local**: Otimizado para rodar localmente em um ambiente de desenvolvimento, proporcionando uma experiência leve e rápida para desenvolvedores.
+   - **Portabilidade**: Facilita a configuração de ambientes de desenvolvimento em diferentes máquinas sem a complexidade de configurar um servidor completo.
+
+Limitações do IIS Express para Produção:
+
+1. **Desempenho e Escalabilidade**:
+   
+   - **Desempenho Limitado**: Não é projetado para lidar com grandes volumes de tráfego ou altas cargas de trabalho como o IIS completo.
+   - **Recursos Limitados**: Não possui todas as otimizações de desempenho que o IIS completo oferece para ambientes de produção.
+
+3. **Segurança**:
+   
+   - **Segurança Restrita**: Embora suporte autenticação e outras funcionalidades de segurança, não é tão robusto quanto o IIS completo para ambientes de produção, que exigem níveis mais altos de segurança e controle.
+
+5. **Gestão e Monitoramento**:
+   
+   - **Ferramentas Limitadas**: Faltam algumas das ferramentas avançadas de gerenciamento, monitoramento e diagnóstico que estão disponíveis no IIS completo.
+
+Uso Adequado de IIS Express:
+
+**Desenvolvimento e Teste Local**:
+
+   - Ideal para desenvolvimento local de aplicações web.
+   - Facilita a depuração e o teste de funcionalidades antes da implantação em um servidor de produção.
+
+**Transição para Produção**:
+
+   - **IIS Completo**: Para ambientes de produção, é recomendado usar o IIS completo, que oferece melhor desempenho, segurança aprimorada, e ferramentas de gerenciamento avançadas.
+    
+   - **Configuração Semelhante**: A transição do IIS Express para o IIS completo é facilitada pela similaridade nas configurações e suporte a funcionalidades.
 
 ## [C#] Razor Pages
 <img src="https://github.com/IsaacAlves7/dotnet/assets/61624336/c84580f8-7225-432b-911d-bb03dd80666b" height="77" align="right">
