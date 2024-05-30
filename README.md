@@ -702,7 +702,6 @@ Comparação Resumida:
 | Injeção de Dependência  | Não embutido                       | Embutido                              |
 | Middleware              | Não configurável                   | Configurável                          |
 
-## [C#] IIS Express
 <img src="https://geeks.ms/wp-content/uploads/old-web-files/jalarcon/IISExpress_61AF1A62.jpg" height="77" align="right">
 
 O **IIS Express** é um web server (servidor web) para executar o código ASP.NET Framework na web, através da sua máquina local. IIS Express é um servidor web que foi projetado principalmente para facilitar o desenvolvimento e testes de aplicações web em um ambiente de desenvolvimento local. Ele oferece muitas das mesmas funcionalidades que o Internet Information Services (IIS) completo, mas com algumas diferenças importantes que o tornam mais adequado para desenvolvimento em vez de produção. IIS Express é uma excelente ferramenta para desenvolvimento e teste de aplicações web, oferecendo uma experiência leve e fácil de usar para desenvolvedores. No entanto, para implantações em ambientes de produção, o IIS completo é a escolha apropriada, devido ao seu desempenho superior, robustez em termos de segurança e ferramentas avançadas de gerenciamento e monitoramento.
