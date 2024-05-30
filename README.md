@@ -153,10 +153,12 @@ namespace HelloWorld
 }
 ```
 
-# MSSQL - Microsoft SQL Server
+## MSSQL - Microsoft SQL Server
 <img src="https://cdn.worldvectorlogo.com/logos/microsoft-sql-server-1.svg" height="77" align="right">
 
-O Microsoft SQL Server é um sistema de gerenciamento de banco de dados relacional (RDBMS) desenvolvido pela Microsoft. Ele é uma das principais plataformas de banco de dados usadas por organizações em todo o mundo para armazenar, manipular e recuperar dados. O Microsoft SQL Server é uma poderosa plataforma de banco de dados relacional amplamente utilizada em organizações de todos os tamanhos para armazenar, manipular e gerenciar dados de forma eficiente e confiável. Com sua robustez, segurança, desempenho e integração com outras tecnologias da Microsoft, o SQL Server continua sendo uma escolha popular para desenvolvedores e administradores de banco de dados em todo o mundo.
+O **MSSQL - Microsoft SQL Server** é um sistema de gerenciamento de banco de dados relacional (RDBMS) desenvolvido pela Microsoft. Ele é uma das principais plataformas de banco de dados usadas por organizações em todo o mundo para armazenar, manipular e recuperar dados. O Microsoft SQL Server é uma poderosa plataforma de banco de dados relacional amplamente utilizada em organizações de todos os tamanhos para armazenar, manipular e gerenciar dados de forma eficiente e confiável. Com sua robustez, segurança, desempenho e integração com outras tecnologias da Microsoft, o SQL Server continua sendo uma escolha popular para desenvolvedores e administradores de banco de dados em todo o mundo.
+
+> O **T-SQL** (Transact-SQL) é a linguagem de consulta usada no Microsoft SQL Server. Ela é uma extensão do SQL (Structured Query Language) padrão com recursos adicionais específicos do SQL Server. O T-SQL é uma linguagem poderosa que permite aos desenvolvedores e administradores de banco de dados realizar uma ampla variedade de operações, incluindo consultas, manipulação de dados, criação e modificação de objetos de banco de dados, controle de acesso e muito mais.
 
 Principais Características do Microsoft SQL Server:
 
