@@ -71,30 +71,32 @@ Principais Componentes do .NET Framework:
 <img src="https://storage.googleapis.com/hcode.com.br/courses/65/logo_svg5fd776bc276da.svg" height="77" align="right">
 
 1. **Common Language Runtime (CLR)**:
+2. 
    - **Máquina Virtual**: O CLR é o ambiente de execução do .NET que gerencia a execução de programas escritos em diversas linguagens de programação.
    - **Gerenciamento de Memória**: Inclui coleta de lixo automática, que gerencia a alocação e desalocação de memória.
    - **Segurança e Isolamento**: Implementa políticas de segurança e isolamento de aplicativos, proporcionando um ambiente de execução seguro.
 
-2. **Framework Class Library (FCL)**:
+3. **Framework Class Library (FCL)**:
+4. 
    - **Biblioteca de Classes**: Uma extensa biblioteca de classes reutilizáveis que fornece suporte para manipulação de dados, acesso a bancos de dados, entrada/saída, gráficos, e desenvolvimento de interfaces de usuário.
    - **APIs Consistentes**: Oferece APIs consistentes e fáceis de usar para realizar tarefas comuns.
 
-3. **Common Type System (CTS)**:
+5. **Common Type System (CTS)**:
    - **Sistema de Tipos**: Define todos os tipos de dados e as regras para a definição e uso desses tipos no .NET, garantindo interoperabilidade entre linguagens.
 
-4. **Common Language Specification (CLS)**:
+6. **Common Language Specification (CLS)**:
    - **Especificação de Linguagem**: Conjunto de regras que linguagens de programação devem seguir para serem compatíveis com o .NET, facilitando a interoperabilidade.
 
 Ferramentas e IDEs: **Visual Studio** é o ambiente de desenvolvimento integrado (IDE) da Microsoft, Visual Studio, oferece um suporte extensivo para desenvolvimento com C# e .NET, incluindo ferramentas de depuração, designers visuais, e integração contínua.
 
-Versões do .NET:
+Versões do .NET: A plataforma .NET evoluiu ao longo dos anos e agora está disponível em diferentes formas:
 
 <a href="https://dotnet.microsoft.com/en-us/download" title="Click to install the currently .NET sdk"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg" height="77" align="right"></a>
 
-A plataforma .NET evoluiu ao longo dos anos e agora está disponível em diferentes formas:
-
 1. **.NET Framework**: A versão original, destinada principalmente ao desenvolvimento de aplicações Windows.
-2. **.NET Core**: Uma versão cross-platform e open-source do .NET, que permite desenvolvimento para Windows, macOS e Linux. Com o .NET Core (agora .NET 5+), C# pode ser usado para desenvolver aplicações que rodam em Windows, Linux e macOS. 
+  
+2. **.NET Core**: Uma versão cross-platform e open-source do .NET, que permite desenvolvimento para Windows, macOS e Linux. Com o .NET Core (agora .NET 5+), C# pode ser usado para desenvolver aplicações que rodam em Windows, Linux e macOS.
+  
 3. **.NET 5+**: A versão unificada que combina os melhores aspectos do .NET Framework, .NET Core e Xamarin, proporcionando um ambiente de desenvolvimento consistente para todas as plataformas.
 
 O .NET Framework é uma plataforma poderosa e abrangente para desenvolvimento de software, e a linguagem C# é sua principal linguagem de programação. Juntos, eles oferecem uma base robusta para construir aplicações seguras, eficientes e de alto desempenho. A integração profunda entre C# e o .NET permite que desenvolvedores aproveitem ao máximo os recursos oferecidos pela plataforma, facilitando o desenvolvimento e a manutenção de aplicações complexas.
@@ -144,36 +146,44 @@ O **IIS Express** é um web server (servidor web) para executar o código ASP.NE
 Características do IIS Express:
 
 1. **Facilidade de Uso**:
+
    - **Instalação Simplificada**: Não requer permissões de administrador para instalação e configuração.
    - **Integrado ao Visual Studio**: Funciona perfeitamente com o Visual Studio, facilitando o desenvolvimento e a depuração de aplicações web diretamente dentro do ambiente de desenvolvimento.
 
-2. **Funcionalidades de IIS**:
+3. **Funcionalidades de IIS**:
+
    - **Compatibilidade**: Suporta muitas das funcionalidades do IIS completo, como suporte a ASP.NET, autenticação, e extensões.
    - **Configuração Similar**: Usa arquivos de configuração semelhantes aos do IIS, permitindo uma fácil transição do desenvolvimento para o servidor de produção.
 
-3. **Ambiente de Desenvolvimento**:
+5. **Ambiente de Desenvolvimento**:
+   
    - **Focado no Desenvolvimento Local**: Otimizado para rodar localmente em um ambiente de desenvolvimento, proporcionando uma experiência leve e rápida para desenvolvedores.
    - **Portabilidade**: Facilita a configuração de ambientes de desenvolvimento em diferentes máquinas sem a complexidade de configurar um servidor completo.
 
 Limitações do IIS Express para Produção:
 
 1. **Desempenho e Escalabilidade**:
+   
    - **Desempenho Limitado**: Não é projetado para lidar com grandes volumes de tráfego ou altas cargas de trabalho como o IIS completo.
    - **Recursos Limitados**: Não possui todas as otimizações de desempenho que o IIS completo oferece para ambientes de produção.
 
-2. **Segurança**:
+3. **Segurança**:
+   
    - **Segurança Restrita**: Embora suporte autenticação e outras funcionalidades de segurança, não é tão robusto quanto o IIS completo para ambientes de produção, que exigem níveis mais altos de segurança e controle.
 
-3. **Gestão e Monitoramento**:
+5. **Gestão e Monitoramento**:
+   
    - **Ferramentas Limitadas**: Faltam algumas das ferramentas avançadas de gerenciamento, monitoramento e diagnóstico que estão disponíveis no IIS completo.
 
 Uso Adequado de IIS Express:
 
 **Desenvolvimento e Teste Local**:
+
    - Ideal para desenvolvimento local de aplicações web.
    - Facilita a depuração e o teste de funcionalidades antes da implantação em um servidor de produção.
 
 **Transição para Produção**:
+
    - **IIS Completo**: Para ambientes de produção, é recomendado usar o IIS completo, que oferece melhor desempenho, segurança aprimorada, e ferramentas de gerenciamento avançadas.
    - **Configuração Semelhante**: A transição do IIS Express para o IIS completo é facilitada pela similaridade nas configurações e suporte a funcionalidades.
 
