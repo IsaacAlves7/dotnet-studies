@@ -313,84 +313,6 @@ Limitações do Windows Forms:
 3. **Tecnologia Legada**:
    - Embora ainda seja suportada, não é mais o foco principal da Microsoft para novas aplicações de desktop, que agora estão voltadas para WPF e UWP.
   
-# 🪒 [C#] Razor Pages
-<img src="https://github.com/IsaacAlves7/dotnet/assets/61624336/c84580f8-7225-432b-911d-bb03dd80666b" height="77" align="right">
-
-**Razor Pages** é uma abordagem de desenvolvimento de aplicações web introduzida no ASP.NET Core, que facilita a criação de interfaces de usuário dinâmicas. Ao contrário do modelo MVC (Model-View-Controller), Razor Pages foca em um design orientado a páginas, simplificando o desenvolvimento de páginas da web e mantendo o código mais coeso e intuitivo. Razor Pages é uma abordagem moderna e eficiente para o desenvolvimento de páginas da web no ASP.NET Core, especialmente útil para aplicações que se beneficiam de uma estrutura orientada a páginas mais simples e direta. Ele combina a flexibilidade da sintaxe Razor com a organização modular de modelos de página, facilitando o desenvolvimento e a manutenção de aplicações web dinâmicas.
-
-Características Principais do Razor Pages:
-
-1. **Abordagem Baseada em Páginas**:
-   - Cada página Razor é composta por um arquivo `.cshtml` (para a marcação HTML e o código Razor) e um arquivo de modelo de página associado (`PageModel`, geralmente com extensão `.cshtml.cs`).
-
-2. **Sintaxe Razor**:
-   - Usa a sintaxe Razor, que permite a combinação de código C# com HTML de maneira elegante e fluida.
-
-3. **Estrutura de Arquivos**:
-   - Os arquivos `.cshtml` e seus modelos de página correspondentes são armazenados na pasta `Pages` por padrão.
-
-4. **Binding de Dados e Manipulação**:
-   - Permite a vinculação de dados diretamente no arquivo de modelo de página (`PageModel`), facilitando a manipulação de dados e lógica de negócios.
-
-5. **Handlers**:
-   - Em vez de controladores MVC, Razor Pages usa "handlers" (como `OnGet`, `OnPost`, etc.) para lidar com solicitações HTTP, proporcionando uma maneira mais direta de mapear ações às solicitações.
-
-6. **Encapsulamento de Lógica**:
-   - A lógica da página é encapsulada no modelo de página, o que promove uma organização mais clara e modular do código.
-
-Exemplo Básico de Razor Page:
-
-Aqui está um exemplo simples de uma Razor Page que exibe uma mensagem de boas-vindas.
-
-Arquivo `Index.cshtml`:
-
-```html
-@page
-@model IndexModel
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Welcome</title>
-</head>
-<body>
-    <h1>@Model.Message</h1>
-</body>
-</html>
-```
-
-Arquivo `Index.cshtml.cs`:
-
-```csharp
-using Microsoft.AspNetCore.Mvc.RazorPages;
-
-public class IndexModel : PageModel
-{
-    public string Message { get; private set; }
-
-    public void OnGet()
-    {
-        Message = "Welcome to Razor Pages!";
-    }
-}
-```
-
-Neste exemplo:
-- O arquivo `Index.cshtml` contém a marcação HTML e o código Razor que exibe a mensagem.
-- O arquivo `Index.cshtml.cs` é o modelo de página que contém a lógica para a página, onde a mensagem "Welcome to Razor Pages!" é definida no método `OnGet`.
-
-Vantagens do Razor Pages:
-
-1. **Simplicidade e Intuitividade**:
-   - Menos arquivos e uma estrutura mais simples em comparação ao padrão MVC, tornando-o ideal para páginas da web que não necessitam de uma arquitetura complexa.
-
-2. **Desempenho**:
-   - Melhor desempenho devido à menor complexidade e sobrecarga.
-
-3. **Produtividade**:
-   - Mais rápido para desenvolver páginas simples, pois a lógica e a apresentação estão mais próximas e coesas.
-
 # 🧵 [C#] Serilog
 <img src="https://serilog.net/img/serilog.png" height="77" align="right">
 
@@ -601,6 +523,87 @@ Comparação Resumida:
 | Atualizações            | Mais lentas                        | Atualizações frequentes               |
 | Injeção de Dependência  | Não embutido                       | Embutido                              |
 | Middleware              | Não configurável                   | Configurável                          |
+
+## [C#] Razor Pages
+<img src="https://github.com/IsaacAlves7/dotnet/assets/61624336/c84580f8-7225-432b-911d-bb03dd80666b" height="77" align="right">
+
+**Razor Pages** é uma abordagem de desenvolvimento de aplicações web introduzida no ASP.NET Core, que facilita a criação de interfaces de usuário dinâmicas. Ao contrário do modelo MVC (Model-View-Controller), Razor Pages foca em um design orientado a páginas, simplificando o desenvolvimento de páginas da web e mantendo o código mais coeso e intuitivo. Razor Pages é uma abordagem moderna e eficiente para o desenvolvimento de páginas da web no ASP.NET Core, especialmente útil para aplicações que se beneficiam de uma estrutura orientada a páginas mais simples e direta. Ele combina a flexibilidade da sintaxe Razor com a organização modular de modelos de página, facilitando o desenvolvimento e a manutenção de aplicações web dinâmicas.
+
+Características Principais do Razor Pages:
+
+1. **Abordagem Baseada em Páginas**:
+   - Cada página Razor é composta por um arquivo `.cshtml` (para a marcação HTML e o código Razor) e um arquivo de modelo de página associado (`PageModel`, geralmente com extensão `.cshtml.cs`).
+
+2. **Sintaxe Razor**:
+   - Usa a sintaxe Razor, que permite a combinação de código C# com HTML de maneira elegante e fluida.
+
+3. **Estrutura de Arquivos**:
+   - Os arquivos `.cshtml` e seus modelos de página correspondentes são armazenados na pasta `Pages` por padrão.
+
+4. **Binding de Dados e Manipulação**:
+   - Permite a vinculação de dados diretamente no arquivo de modelo de página (`PageModel`), facilitando a manipulação de dados e lógica de negócios.
+
+5. **Handlers**:
+   - Em vez de controladores MVC, Razor Pages usa "handlers" (como `OnGet`, `OnPost`, etc.) para lidar com solicitações HTTP, proporcionando uma maneira mais direta de mapear ações às solicitações.
+
+6. **Encapsulamento de Lógica**:
+   - A lógica da página é encapsulada no modelo de página, o que promove uma organização mais clara e modular do código.
+
+Exemplo Básico de Razor Page:
+
+Aqui está um exemplo simples de uma Razor Page que exibe uma mensagem de boas-vindas.
+
+Arquivo `Index.cshtml`:
+
+```html
+@page
+@model IndexModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>@Model.Message</h1>
+</body>
+</html>
+```
+
+Arquivo `Index.cshtml.cs`:
+
+```csharp
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+public class IndexModel : PageModel
+{
+    public string Message { get; private set; }
+
+    public void OnGet()
+    {
+        Message = "Welcome to Razor Pages!";
+    }
+}
+```
+
+Neste exemplo:
+- O arquivo `Index.cshtml` contém a marcação HTML e o código Razor que exibe a mensagem.
+- O arquivo `Index.cshtml.cs` é o modelo de página que contém a lógica para a página, onde a mensagem "Welcome to Razor Pages!" é definida no método `OnGet`.
+
+Vantagens do Razor Pages:
+
+1. **Simplicidade e Intuitividade**:
+
+   - Menos arquivos e uma estrutura mais simples em comparação ao padrão MVC, tornando-o ideal para páginas da web que não necessitam de uma arquitetura complexa.
+
+3. **Desempenho**:
+
+   - Melhor desempenho devido à menor complexidade e sobrecarga.
+
+4. **Produtividade**:
+
+   - Mais rápido para desenvolver páginas simples, pois a lógica e a apresentação estão mais próximas e coesas.
 
 # 🟩 Entity Framework
 <div align="center"><img src="https://www.captivix.com/wp-content/uploads/2019/07/outsource-vs-partnership-captivix.jpg" width="100%"></div><br \>
