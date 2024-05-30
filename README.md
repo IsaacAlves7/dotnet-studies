@@ -605,8 +605,117 @@ Vantagens do Razor Pages:
 
    - Mais rápido para desenvolver páginas simples, pois a lógica e a apresentação estão mais próximas e coesas.
 
-# 🟩 Entity Framework
-<div align="center"><img src="https://www.captivix.com/wp-content/uploads/2019/07/outsource-vs-partnership-captivix.jpg" width="100%"></div><br \>
+## Entity Framework
+<img src="https://github.com/IsaacAlves7/dotnet/assets/61624336/dc7ebf76-f506-4e7f-8d47-236cd16e0533" height="77" align="right">
+
+O **Entity Framework (EF)** é uma biblioteca de mapeamento objeto-relacional (ORM) desenvolvida pela Microsoft para a plataforma .NET. Ele permite que os desenvolvedores trabalhem com dados relacionais usando objetos .NET, eliminando a necessidade de escrever código SQL diretamente. O Entity Framework facilita o desenvolvimento de aplicações de dados, automatizando muitas tarefas comuns associadas ao acesso a bancos de dados. Entity Framework é uma poderosa ferramenta ORM para desenvolvedores .NET, simplificando o acesso e manipulação de dados em aplicações. Com suporte a múltiplos modelos de desenvolvimento, consultas LINQ e migrações, ele melhora a produtividade e manutenibilidade dos aplicativos, embora possa ter algumas limitações de desempenho e flexibilidade em comparação com o acesso direto ao SQL.
+
+Principais Características do Entity Framework:
+
+1. **Mapeamento Objeto-Relacional (ORM)**:
+   - Transforma dados armazenados em um banco de dados relacional em objetos .NET e vice-versa. Isso permite que os desenvolvedores trabalhem com dados usando paradigmas de programação orientada a objetos.
+
+2. **Modelos de Desenvolvimento**:
+   - **Code First**: Permite que os desenvolvedores definam o modelo de dados usando classes C# ou VB.NET. O EF cria o esquema do banco de dados com base nessas classes.
+   - **Database First**: Começa com um banco de dados existente e gera classes de entidade com base no esquema do banco de dados.
+   - **Model First**: Permite que os desenvolvedores definam um modelo usando um designer visual, que então gera o esquema do banco de dados e as classes de entidade.
+
+3. **Consultas LINQ**:
+   - Suporte para Language Integrated Query (LINQ), que permite escrever consultas de dados em C# ou VB.NET. O EF converte essas consultas em SQL e as executa no banco de dados.
+
+4. **Migrações**:
+   - Gerenciamento de mudanças no esquema do banco de dados através de migrações. Isso facilita a evolução do esquema de banco de dados de forma controlada.
+
+5. **Lazy Loading e Eager Loading**:
+   - **Lazy Loading**: Carrega dados relacionados sob demanda quando eles são acessados pela primeira vez.
+   - **Eager Loading**: Carrega dados relacionados junto com a consulta inicial, evitando múltiplas consultas ao banco de dados.
+
+6. **Validação**:
+   - Suporte a validações de dados usando atributos de anotação de dados (Data Annotations) e a API de validação.
+
+Exemplo Básico de Uso do Entity Framework:
+
+Passo 1: Configurar o Projeto
+
+1. Crie um novo projeto no Visual Studio.
+2. Instale o pacote NuGet `Microsoft.EntityFrameworkCore` e `Microsoft.EntityFrameworkCore.SqlServer` (ou outro provedor de banco de dados).
+
+Passo 2: Definir o Modelo de Dados
+
+```csharp
+public class Product
+{
+    public int ProductId { get; set; }
+    public string Name { get; set; }
+    public decimal Price { get; set; }
+}
+```
+
+Passo 3: Criar o Contexto do Banco de Dados
+
+```csharp
+using Microsoft.EntityFrameworkCore;
+
+public class AppDbContext : DbContext
+{
+    public DbSet<Product> Products { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.UseSqlServer("YourConnectionStringHere");
+    }
+}
+```
+
+Usar o Contexto para Acessar Dados
+
+```csharp
+class Program
+{
+    static void Main(string[] args)
+    {
+        using (var context = new AppDbContext())
+        {
+            // Adicionar um novo produto
+            var product = new Product { Name = "Example Product", Price = 9.99M };
+            context.Products.Add(product);
+            context.SaveChanges();
+
+            // Consultar produtos
+            var products = context.Products.ToList();
+            foreach (var p in products)
+            {
+                Console.WriteLine($"{p.ProductId}: {p.Name} - {p.Price}");
+            }
+        }
+    }
+}
+```
+
+Vantagens do Entity Framework:
+
+1. **Produtividade**:
+   - Reduz a quantidade de código necessário para acessar e manipular dados, permitindo que os desenvolvedores se concentrem mais na lógica de negócios.
+
+2. **Manutenibilidade**:
+   - Facilita a manutenção e a evolução do esquema de banco de dados e do código de acesso a dados.
+
+3. **Abstração de Banco de Dados**:
+   - Permite trocar facilmente de fornecedor de banco de dados sem mudar o código de acesso a dados.
+
+4. **Validação e Segurança**:
+   - Integração com recursos de validação de dados e segurança, reduzindo o risco de erros e vulnerabilidades.
+
+### Limitações do Entity Framework:
+
+1. **Desempenho**:
+   - Pode ser mais lento em comparação ao uso direto de SQL, especialmente para consultas complexas.
+
+2. **Complexidade**:
+   - A curva de aprendizado pode ser íngreme para desenvolvedores que não estão familiarizados com ORM.
+
+3. **Flexibilidade**:
+   - Pode ser menos flexível para certos tipos de consultas ou operações avançadas de banco de dados.
 
 # 📓 IronOCR
 <div align="center"><img src="https://ironsoftware.com/img/svgs/iron-ocr-logo.svg" height="177"></div><br \>
