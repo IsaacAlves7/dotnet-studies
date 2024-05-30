@@ -52,17 +52,15 @@ Principais características do C#:
 4. **Suporte à Programação Assíncrona**:
    - **Async e Await**: Facilita a escrita de código assíncrono, melhorando a performance e a capacidade de resposta das aplicações.
 
-5. **Plataforma .NET**:
-
 <a href="https://dotnet.microsoft.com/en-us/download" title="Click to install the currently .NET sdk"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" height="77" align="right"></a>
 
-**Biblioteca de Classes Base**: A .NET proporciona uma vasta biblioteca de classes que facilita o desenvolvimento de uma ampla gama de aplicações. O **.NET Framework** é uma plataforma de desenvolvimento criada pela Microsoft que fornece um ambiente de execução para aplicações e serviços, permitindo que desenvolvedores construam e executem aplicações de forma consistente. Ele inclui uma grande biblioteca de classes (Framework Class Library - FCL) e uma máquina virtual conhecida como Common Language Runtime (CLR), que oferece serviços como gerenciamento de memória, segurança, e exceção.
+5. **Plataforma .NET**: **Biblioteca de Classes Base**: A .NET proporciona uma vasta biblioteca de classes que facilita o desenvolvimento de uma ampla gama de aplicações. O **.NET Framework** é uma plataforma de desenvolvimento criada pela Microsoft que fornece um ambiente de execução para aplicações e serviços, permitindo que desenvolvedores construam e executem aplicações de forma consistente. Ele inclui uma grande biblioteca de classes (Framework Class Library - FCL) e uma máquina virtual conhecida como Common Language Runtime (CLR), que oferece serviços como gerenciamento de memória, segurança, e exceção.
 
-> A linguagem C# foi desenvolvida especificamente para o .NET Framework e é uma das linguagens de programação mais proeminentes para o desenvolvimento de aplicações na plataforma .NET. C# foi desenhada para aproveitar ao máximo os recursos oferecidos pelo .NET, incluindo o CLR, FCL e outras funcionalidades. O código C# é compilado para Intermediate Language (IL), que é então executado pelo CLR. Isso permite que o código C# seja executado em qualquer plataforma que suporte o CLR. Graças ao CTS e CLS, C# pode interoperar facilmente com outras linguagens .NET como VB.NET e F#. As funcionalidades da Linguagem incluem:
->
->  - **Suporte Nativo**: Muitas das funcionalidades avançadas do .NET, como LINQ (Language Integrated Query), manipulação assíncrona com `async` e `await`, e expressões lambda, são diretamente suportadas e integradas em C#.
-> 
->  - **Atualizações e Evoluções**: A evolução do C# e do .NET Framework acontece de forma coordenada, garantindo que novas funcionalidades do framework possam ser utilizadas de forma eficaz pela linguagem.
+A linguagem C# foi desenvolvida especificamente para o .NET Framework e é uma das linguagens de programação mais proeminentes para o desenvolvimento de aplicações na plataforma .NET. C# foi desenhada para aproveitar ao máximo os recursos oferecidos pelo .NET, incluindo o CLR, FCL e outras funcionalidades. O código C# é compilado para Intermediate Language (IL), que é então executado pelo CLR. Isso permite que o código C# seja executado em qualquer plataforma que suporte o CLR. Graças ao CTS e CLS, C# pode interoperar facilmente com outras linguagens .NET como VB.NET e F#. As funcionalidades da Linguagem incluem:
+
+- **Suporte Nativo**: Muitas das funcionalidades avançadas do .NET, como LINQ (Language Integrated Query), manipulação assíncrona com `async` e `await`, e expressões lambda, são diretamente suportadas e integradas em C#.
+ 
+- **Atualizações e Evoluções**: A evolução do C# e do .NET Framework acontece de forma coordenada, garantindo que novas funcionalidades do framework possam ser utilizadas de forma eficaz pela linguagem.
 
 Principais Componentes do .NET Framework:
 
