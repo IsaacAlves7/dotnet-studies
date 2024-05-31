@@ -160,32 +160,135 @@ namespace HelloWorld
 
 O **MSSQL - Microsoft SQL Server** é um sistema de gerenciamento de banco de dados relacional (RDBMS) desenvolvido pela Microsoft. Ele é uma das principais plataformas de banco de dados usadas por organizações em todo o mundo para armazenar, manipular e recuperar dados. O Microsoft SQL Server é uma poderosa plataforma de banco de dados relacional amplamente utilizada em organizações de todos os tamanhos para armazenar, manipular e gerenciar dados de forma eficiente e confiável. Com sua robustez, segurança, desempenho e integração com outras tecnologias da Microsoft, o SQL Server continua sendo uma escolha popular para desenvolvedores e administradores de banco de dados em todo o mundo.
 
-> O **T-SQL** (Transact-SQL) é a linguagem de consulta usada no Microsoft SQL Server. Ela é uma extensão do SQL (Structured Query Language) padrão com recursos adicionais específicos do SQL Server. O T-SQL é uma linguagem poderosa que permite aos desenvolvedores e administradores de banco de dados realizar uma ampla variedade de operações, incluindo consultas, manipulação de dados, criação e modificação de objetos de banco de dados, controle de acesso e muito mais.
+O **T-SQL** (Transact-SQL) é a linguagem de consulta usada no Microsoft SQL Server. Ela é uma extensão do SQL (Structured Query Language) padrão com recursos adicionais específicos do SQL Server. O T-SQL é uma linguagem poderosa que permite aos desenvolvedores e administradores de banco de dados realizar uma ampla variedade de operações, incluindo consultas, manipulação de dados, criação e modificação de objetos de banco de dados, controle de acesso e muito mais.
 
-Principais Características do Microsoft SQL Server:
+Principais Recursos do T-SQL:
+
+1. **Consulta de Dados**:
+   - Permite escrever consultas complexas para recuperar dados de tabelas e outras fontes de dados.
+
+2. **Manipulação de Dados**:
+   - Fornece instruções como `INSERT`, `UPDATE`, `DELETE` para inserir, atualizar e excluir dados em tabelas.
+
+3. **Definição de Dados**:
+   - Possibilita a criação e modificação de objetos de banco de dados, como tabelas, índices, procedimentos armazenados, funções e visões.
+
+4. **Controle de Transações**:
+   - Oferece suporte a transações para garantir a atomicidade, consistência, isolamento e durabilidade das operações no banco de dados.
+
+5. **Controle de Fluxo**:
+   - Permite o uso de estruturas de controle de fluxo, como `IF...ELSE`, `WHILE`, `BEGIN...END`, para controlar o fluxo de execução do código.
+
+6. **Tratamento de Exceções**:
+   - Possibilita o tratamento de erros e exceções usando blocos `TRY...CATCH` para lidar com situações excepcionais de forma controlada.
+
+7. **Funções e Procedimentos Armazenados**:
+   - Permite a criação de funções e procedimentos armazenados para encapsular lógica de negócios e reutilizá-la em várias partes do código.
+
+8. **Gerenciamento de Segurança**:
+   - Oferece recursos para controlar o acesso aos objetos do banco de dados usando permissões e papéis de segurança.
+
+Exemplos de T-SQL:
+
+Consulta de Dados:
+
+```sql
+SELECT FirstName, LastName
+FROM Employees
+WHERE Department = 'IT'
+ORDER BY LastName;
+```
+
+Inserção de Dados:
+
+```sql
+INSERT INTO Products (ProductName, Price)
+VALUES ('Smartphone', 999.99),
+       ('Laptop', 1499.99);
+```
+
+Atualização de Dados:
+
+```sql
+UPDATE Customers
+SET Email = 'newemail@example.com'
+WHERE CustomerID = 123;
+```
+
+Exclusão de Dados:
+
+```sql
+DELETE FROM Orders
+WHERE OrderDate < '2022-01-01';
+```
+
+Criação de Tabela:
+
+```sql
+CREATE TABLE Products (
+    ProductID INT PRIMARY KEY,
+    ProductName NVARCHAR(100),
+    Price DECIMAL(10, 2)
+);
+```
+
+Criação de Procedimento Armazenado:
+
+```sql
+CREATE PROCEDURE GetCustomerOrders
+    @CustomerID INT
+AS
+BEGIN
+    SELECT * FROM Orders
+    WHERE CustomerID = @CustomerID;
+END;
+```
+
+Vantagens do T-SQL:
+
+1. **Integração com SQL Server**:
+   - O T-SQL é otimizado para funcionar com o SQL Server, aproveitando os recursos e funcionalidades específicas da plataforma.
+
+2. **Desempenho**:
+   - Por ser otimizado para o SQL Server, o T-SQL pode oferecer melhor desempenho em comparação com outras linguagens de consulta genéricas.
+
+3. **Ampla Gama de Recursos**:
+   - Oferece uma ampla variedade de recursos e funcionalidades para atender às necessidades complexas de desenvolvimento e administração de banco de dados.
+
+4. **Familiaridade**:
+   - Muitos desenvolvedores e administradores estão familiarizados com o T-SQL devido à sua ampla adoção e documentação disponível.
+
+Voltando ao MSSQL, as principais características dele são:
 
 1. **Modelo Relacional**:
+
    - O SQL Server utiliza um modelo relacional para armazenar dados em tabelas, que são organizadas em bancos de dados.
 
-2. **Linguagem SQL**:
+3. **Linguagem SQL**:
+
    - Suporte completo à Linguagem de Consulta Estruturada (SQL), que permite aos desenvolvedores e administradores realizar consultas e manipular dados de forma eficiente.
 
-3. **Gerenciamento de Dados**:
+5. **Gerenciamento de Dados**:
    - Capacidade de armazenar, recuperar e manipular grandes volumes de dados de forma eficiente e confiável.
 
-4. **Segurança Integrada**:
+6. **Segurança Integrada**:
+
    - Recursos avançados de segurança, incluindo autenticação, autorização, criptografia e auditoria, para proteger os dados armazenados no banco de dados.
 
-5. **Escalabilidade e Desempenho**:
+8. **Escalabilidade e Desempenho**:
+
    - Suporte a recursos de escalabilidade horizontal e vertical, bem como otimizações de desempenho para garantir um desempenho rápido e responsivo, mesmo em ambientes de alta carga.
 
-6. **Replicação e Alta Disponibilidade**:
+10. **Replicação e Alta Disponibilidade**:
+
    - Recursos de replicação e clustering para garantir a disponibilidade contínua dos dados e evitar pontos únicos de falha.
 
-7. **Integração com Ferramentas Microsoft**:
+11. **Integração com Ferramentas Microsoft**:
+
    - Integração nativa com outras ferramentas e tecnologias da Microsoft, como .NET Framework, Visual Studio, Azure e Power BI.
 
-8. **Suporte a Plataformas Múltiplas**:
+11. **Suporte a Plataformas Múltiplas**:
+    
    - Disponibilidade em várias plataformas, incluindo Windows e Linux, proporcionando flexibilidade na escolha da plataforma de implantação.
 
 Edições do Microsoft SQL Server:
@@ -193,9 +296,13 @@ Edições do Microsoft SQL Server:
 O SQL Server está disponível em várias edições, cada uma com diferentes conjuntos de recursos e preços adequados a diferentes necessidades e orçamentos:
 
 1. **Enterprise**: Oferece os recursos mais avançados e escalabilidade para grandes empresas e aplicações críticas.
+   
 2. **Standard**: Adequada para médias empresas e aplicações com requisitos de banco de dados menos exigentes.
+   
 3. **Developer**: Destinada a desenvolvedores para uso em ambientes de desenvolvimento e teste.
+   
 4. **Express**: Edição gratuita e leve, ideal para pequenas aplicações e desenvolvimento.
+   
 5. **Web**: Projetada para hospedagem de sites e aplicações web.
 
 Componentes do SQL Server:
