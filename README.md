@@ -1143,6 +1143,8 @@ Limitações do Entity Framework:
 
 O **Ocelot** é uma biblioteca de código aberto para construção de gateways de API em .NET. Ele foi projetado para simplificar o processo de criação de gateways que atuam como intermediários entre clientes e várias APIs de serviços nos bastidores. Esses gateways podem ser úteis em cenários de microserviços, onde várias APIs precisam ser acessadas por meio de uma única interface. O Ocelot é uma ferramenta útil para construir gateways de API em .NET, simplificando o processo de roteamento, autenticação, autorização e transformação de solicitações e respostas. Com sua simplicidade de configuração, flexibilidade e suporte a padrões de segurança, o Ocelot é uma escolha popular para desenvolvedores que precisam criar gateways de API eficientes e escaláveis em suas aplicações .NET.
 
+> O Ocelot é um API Gateway para plataforma .NET. Este projeto destina-se a pessoas que usam o .NET Core executando uma arquitetura orientada a microserviços / serviços que precisam de um ponto de entrada unificado em seu sistema. No entanto, ele funcionará com qualquer coisa que fale HTTP e seja executado em qualquer plataforma suportada pelo ASP.NET Core.
+
 Principais Características do Ocelot:
 
 1. **Gateway de API**:
