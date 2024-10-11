@@ -1171,6 +1171,68 @@ Limitações do Entity Framework:
 3. **Flexibilidade**:
    - Pode ser menos flexível para certos tipos de consultas ou operações avançadas de banco de dados.
 
+
+## [C#] GraphQL
+
+```csharp
+using System;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
+using System.Text.Json;
+
+class Program
+{
+    static async Task Main(string[] args)
+    {
+        // Autenticação da API do Pipefy
+        var client = new HttpClient();
+        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "[api token pipefy]");
+
+        // Request da API do Pipefy
+        var query = "{\"query\": \"{ card(id: 1006982319) { title, done, id, fields { date_value, datetime_value, filled_at, float_value, indexName, name, native_value, report_value, updated_at, value }, updated_at } }\"}";
+        var content = new StringContent(query, System.Text.Encoding.UTF8, "application/json");
+
+        // Response da API do Pipefy
+        var response = await client.PostAsync("https://api.pipefy.com/graphql", content);
+        var responseString = await response.Content.ReadAsStringAsync();
+
+        // Exibe a resposta recebida
+        Console.WriteLine("Resposta recebida:");
+        Console.WriteLine(responseString);
+
+        if (response.IsSuccessStatusCode)
+        {
+            // Verifica se a resposta não está vazia antes de tentar desserializar
+            if (!string.IsNullOrEmpty(responseString))
+            {
+                try
+                {
+                    // Desserializa a string JSON
+                    var jsonData = JsonSerializer.Deserialize<JsonElement>(responseString);
+
+                    // Acessa e exibe o título do card
+                    var title = jsonData.GetProperty("data").GetProperty("card").GetProperty("title").GetString();
+                    Console.WriteLine("Título do card: " + title);
+                }
+                catch (JsonException ex)
+                {
+                    Console.WriteLine("Erro ao desserializar o JSON: " + ex.Message);
+                }
+            }
+            else
+            {
+                Console.WriteLine("A resposta está vazia.");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Erro na requisição. Código de status: " + response.StatusCode);
+        }
+    }
+}
+```
+
 ## [C#] Ocelot
 <img src="https://github.com/IsaacAlves7/dotnet/assets/61624336/81c2581d-e3cc-409e-b04b-b317e09ff361" align="right" height="77">
 
