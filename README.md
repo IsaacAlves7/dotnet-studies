@@ -33,7 +33,7 @@ A linguagem **C#** ou também C-Sharp, é uma linguagem de programação de alto
 
 Principais características do C#:
 
-1. **Orientação a Objetos**:
+1. **Orientação a Objetos**: A sintaxe do C# lembra a sintaxe do JavaScript, Java e C++.
    - **Classes e Objetos**: Suporta a criação e manipulação de classes e objetos.
    - **Herança**: Permite a criação de classes derivadas que herdam características de classes base.
    - **Polimorfismo**: Permite que métodos em classes derivadas tenham comportamentos diferentes.
@@ -47,18 +47,18 @@ Principais características do C#:
    - **Legibilidade**: A sintaxe é clara e intuitiva, facilitando a leitura e escrita do código.
    - **Características Funcionais**: Suporta programação funcional com expressões lambda, LINQ (Language Integrated Query) e delegados.
 
-> A sintaxe do C# lembra a sintaxe do JavaScript.
-
 4. **Suporte à Programação Assíncrona**:
    - **Async e Await**: Facilita a escrita de código assíncrono, melhorando a performance e a capacidade de resposta das aplicações.
 
+5. **Plataforma .NET**: **Biblioteca de Classes Base** 
+
 <a href="https://dotnet.microsoft.com/en-us/download" title="Click to install the currently .NET sdk"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" height="77" align="right"></a>
 
-5. **Plataforma .NET**: **Biblioteca de Classes Base**: A .NET proporciona uma vasta biblioteca de classes que facilita o desenvolvimento de uma ampla gama de aplicações. O **.NET Framework** é uma plataforma de desenvolvimento criada pela Microsoft que fornece um ambiente de execução para aplicações e serviços, permitindo que desenvolvedores construam e executem aplicações de forma consistente. Ele inclui uma grande biblioteca de classes (Framework Class Library - FCL) e uma máquina virtual conhecida como Common Language Runtime (CLR), que oferece serviços como gerenciamento de memória, segurança, e exceção.
+A .NET (Dot Net) proporciona uma vasta biblioteca de classes que facilita o desenvolvimento de uma ampla gama de aplicações. O **.NET Framework** é uma plataforma de desenvolvimento criada pela Microsoft que fornece um ambiente de execução para aplicações e serviços, permitindo que desenvolvedores construam e executem aplicações de forma consistente. Ele inclui uma grande biblioteca de classes (**Framework Class Library - FCL**) e uma máquina virtual conhecida como **Common Language Runtime (CLR)**, que oferece serviços como gerenciamento de memória, segurança, e exceção.
 
 A linguagem C# foi desenvolvida especificamente para o .NET Framework e é uma das linguagens de programação mais proeminentes para o desenvolvimento de aplicações na plataforma .NET. C# foi desenhada para aproveitar ao máximo os recursos oferecidos pelo .NET, incluindo o CLR, FCL e outras funcionalidades. O código C# é compilado para Intermediate Language (IL), que é então executado pelo CLR. Isso permite que o código C# seja executado em qualquer plataforma que suporte o CLR. Graças ao CTS e CLS, C# pode interoperar facilmente com outras linguagens .NET como VB.NET e F#. As funcionalidades da Linguagem incluem:
 
-- **Suporte Nativo**: Muitas das funcionalidades avançadas do .NET, como LINQ (Language Integrated Query), manipulação assíncrona com `async` e `await`, e expressões lambda, são diretamente suportadas e integradas em C#.
+- **Suporte Nativo**: Muitas das funcionalidades avançadas do .NET, como **LINQ** (Language Integrated Query), manipulação assíncrona com `async` e `await`, e expressões lambda, são diretamente suportadas e integradas em C#.
  
 - **Atualizações e Evoluções**: A evolução do C# e do .NET Framework acontece de forma coordenada, garantindo que novas funcionalidades do framework possam ser utilizadas de forma eficaz pela linguagem.
 
@@ -85,7 +85,7 @@ Principais Componentes do .NET Framework:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Visual_Studio_Icon_2019.svg" align="right" height="77">
 
-Ferramentas e IDEs: **Visual Studio** é o ambiente de desenvolvimento integrado (IDE) da Microsoft, Visual Studio, oferece um suporte extensivo para desenvolvimento com C# e .NET, incluindo ferramentas de depuração, designers visuais, e integração contínua.
+Ferramentas e IDEs: **Visual Studio** é o ambiente de desenvolvimento integrado (IDE) da Microsoft, Visual Studio, oferece um suporte extensivo para desenvolvimento com C# e .NET, incluindo ferramentas de depuração, designers visuais, e integração contínua. As ferramentas mais utilizadas são: Console Application, Windows Forms Application
 
 Versões do .NET: A plataforma .NET evoluiu ao longo dos anos e agora está disponível em diferentes formas:
 
@@ -137,8 +137,20 @@ Lista todos os pacotes do sdk instalados na sua máquina:
 dotnet --list-sdks
 ```
 
+Para adicionar o pacote com dotnet:
+
+```sh
+dotnet add package [pacote]
+```
+
+Para rodar um programa direto no console:
+
+```sh
+dotnet run Program.cs
+```
+
 ## Hello, World! - C#
-Aqui está um exemplo simples de um programa em C# que imprime `"Hello, World!"` na console:
+Aqui está um exemplo simples de um programa em C# que imprime `"Hello, World!"` na console (Abra o Visual Studio Community > Console Application):
 
 ```csharp
 using System;
