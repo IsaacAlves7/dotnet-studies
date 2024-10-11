@@ -1173,6 +1173,40 @@ Limitações do Entity Framework:
 
 
 ## [C#] GraphQL
+Vamos fazer a consulta de dados via API GraphQL do Pipefy com o .NET e exibir esses dados no CLI de console do terminal no formato JSON. Para isso, siga os passos abaixo:
+
+1. Token de autenticação do Pipefy: https://app.pipefy.com/tokens
+
+2. Roles de permissão do usuário Pipefy: Admin
+
+3. API do Pipefy: https://api.pipefy.com/graphql
+
+Exemplo padrão de consulta GraphQL via teste do Postman:
+
+```gpl
+query {
+  card(id: [card]) {
+    title
+    done
+    id
+    fields {
+      date_value
+      datetime_value
+      filled_at
+      float_value
+      indexName
+      name
+      native_value
+      report_value
+      updated_at
+      value
+    }
+    updated_at
+  }
+}
+```
+
+Vamos representar o mesmo com o nosso código do .NET abaixo:
 
 ```csharp
 using System;
