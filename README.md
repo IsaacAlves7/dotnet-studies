@@ -143,7 +143,7 @@ Para adicionar o pacote com dotnet:
 dotnet add package [pacote]
 ```
 
-Para rodar um programa direto no console:
+Para rodar um programa direto no console do terminal:
 
 ```sh
 dotnet run Program.cs
