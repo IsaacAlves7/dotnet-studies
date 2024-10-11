@@ -157,11 +157,32 @@ using System;
 
 namespace HelloWorld
 {
-    class Program
+    class Program // Classe do nosso arquivo: Program.cs
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+        }
+    }
+}
+```
+
+Esse acima é o modelo base, por padrão, o Visual Studio nos apresenta dessa forma:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World");
         }
     }
 }
