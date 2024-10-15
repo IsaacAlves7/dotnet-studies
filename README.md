@@ -1415,3 +1415,12 @@ Vantagens do IronOCR:
 
 6. **Documentação Abundante**:
    - Disponibilidade de documentação detalhada, exemplos de código e suporte técnico para ajudar os desenvolvedores a começar rapidamente.
+
+# 🧪 [C#] Testes unitários com .NET
+O **Moq** e **XUnit.net** são ferramentas distintas para testes em .NET:
+
+- **Moq**: Um framework de _mocking_ usado para criar objetos simulados (mocks) de dependências, permitindo testar unidades isoladas de código, como classes e métodos, sem precisar interagir com implementações reais.
+  
+- **XUnit.net**: Um framework de teste de unidade que define e executa os testes. Ele fornece as anotações e funcionalidades para escrever testes e verificar os resultados (como `[Fact]` e `Assert`).
+
+Em resumo, **Moq** simula dependências; **XUnit.net** executa testes.
