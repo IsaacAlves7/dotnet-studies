@@ -467,23 +467,17 @@ O **Windows Forms Application** (Aplicação em janela para formulários), frequ
 
 Características Principais do Windows Forms:
 
-1. **Controles de UI**:
-   - WinForms oferece uma ampla gama de controles de interface do usuário, como botões, caixas de texto, labels, grids, listas, e muito mais, que podem ser facilmente arrastados e soltos no formulário durante o design.
+1. **Controles de UI**: WinForms oferece uma ampla gama de controles de interface do usuário, como botões, caixas de texto, labels, grids, listas, e muito mais, que podem ser facilmente arrastados e soltos no formulário durante o design.
 
-2. **Design Visual**:
-   - Utiliza um designer visual no Visual Studio, permitindo aos desenvolvedores arrastar e soltar componentes de UI no formulário e configurar suas propriedades visualmente.
+2. **Design Visual**: Utiliza um designer visual no Visual Studio, permitindo aos desenvolvedores arrastar e soltar componentes de UI no formulário e configurar suas propriedades visualmente.
 
-3. **Eventos e Manipulação de Eventos**:
-   - Baseado em um modelo de programação orientado a eventos, onde ações do usuário, como cliques de botão e entradas de teclado, disparam eventos que podem ser manipulados por código.
+3. **Eventos e Manipulação de Eventos**: Baseado em um modelo de programação orientado a eventos, onde ações do usuário, como cliques de botão e entradas de teclado, disparam eventos que podem ser manipulados por código.
 
-4. **Integração com .NET Framework**:
-   - Aproveita o poder do .NET Framework para acessar bibliotecas e funcionalidades como acesso a dados, redes, manipulação de arquivos, e mais.
+4. **Integração com .NET Framework**: Aproveita o poder do .NET Framework para acessar bibliotecas e funcionalidades como acesso a dados, redes, manipulação de arquivos, e mais.
 
-5. **Customização e Estilização**:
-   - Permite a personalização extensa dos controles e do formulário através de propriedades, herança de classes, e sobrecarga de métodos de desenho.
+5. **Customização e Estilização**: Permite a personalização extensa dos controles e do formulário através de propriedades, herança de classes, e sobrecarga de métodos de desenho.
 
-6. **Suporte ao Legacy**:
-   - É uma tecnologia madura, amplamente utilizada para a manutenção e desenvolvimento de aplicativos de desktop herdados.
+6. **Suporte ao Legacy**: É uma tecnologia madura, amplamente utilizada para a manutenção e desenvolvimento de aplicativos de desktop herdados.
 
 Estrutura de um Windows Forms Application:
 
