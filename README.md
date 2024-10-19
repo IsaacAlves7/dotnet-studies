@@ -197,29 +197,21 @@ O **T-SQL** (Transact-SQL) é a linguagem de consulta usada no Microsoft SQL Ser
 
 Principais Recursos do T-SQL:
 
-1. **Consulta de Dados**:
-   - Permite escrever consultas complexas para recuperar dados de tabelas e outras fontes de dados.
+1. **Consulta de Dados**: Permite escrever consultas complexas para recuperar dados de tabelas e outras fontes de dados.
 
-2. **Manipulação de Dados**:
-   - Fornece instruções como `INSERT`, `UPDATE`, `DELETE` para inserir, atualizar e excluir dados em tabelas.
+2. **Manipulação de Dados**: Fornece instruções como `INSERT`, `UPDATE`, `DELETE` para inserir, atualizar e excluir dados em tabelas.
 
-3. **Definição de Dados**:
-   - Possibilita a criação e modificação de objetos de banco de dados, como tabelas, índices, procedimentos armazenados, funções e visões.
+3. **Definição de Dados**: Possibilita a criação e modificação de objetos de banco de dados, como tabelas, índices, procedimentos armazenados, funções e visões.
 
-4. **Controle de Transações**:
-   - Oferece suporte a transações para garantir a atomicidade, consistência, isolamento e durabilidade das operações no banco de dados.
+4. **Controle de Transações**: Oferece suporte a transações para garantir a atomicidade, consistência, isolamento e durabilidade das operações no banco de dados.
 
-5. **Controle de Fluxo**:
-   - Permite o uso de estruturas de controle de fluxo, como `IF...ELSE`, `WHILE`, `BEGIN...END`, para controlar o fluxo de execução do código.
+5. **Controle de Fluxo**: Permite o uso de estruturas de controle de fluxo, como `IF...ELSE`, `WHILE`, `BEGIN...END`, para controlar o fluxo de execução do código.
 
-6. **Tratamento de Exceções**:
-   - Possibilita o tratamento de erros e exceções usando blocos `TRY...CATCH` para lidar com situações excepcionais de forma controlada.
+6. **Tratamento de Exceções**: Possibilita o tratamento de erros e exceções usando blocos `TRY...CATCH` para lidar com situações excepcionais de forma controlada.
 
-7. **Funções e Procedimentos Armazenados**:
-   - Permite a criação de funções e procedimentos armazenados para encapsular lógica de negócios e reutilizá-la em várias partes do código.
+7. **Funções e Procedimentos Armazenados**: Permite a criação de funções e procedimentos armazenados para encapsular lógica de negócios e reutilizá-la em várias partes do código.
 
-8. **Gerenciamento de Segurança**:
-   - Oferece recursos para controlar o acesso aos objetos do banco de dados usando permissões e papéis de segurança.
+8. **Gerenciamento de Segurança**: Oferece recursos para controlar o acesso aos objetos do banco de dados usando permissões e papéis de segurança.
 
 Exemplos de T-SQL:
 
