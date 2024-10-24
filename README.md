@@ -1347,6 +1347,30 @@ class Program
 }
 ```
 
+A **Desserialização** é o processo de converter uma string JSON de volta para um objeto C#. Isso é útil quando você recebe dados em formato JSON e precisa trabalhar com eles dentro de seu aplicativo C#. Para desserializar JSON em um objeto C# utilizando o Json.NET, você pode utilizar o método "`JsonConvert.DeserializeObject()`" da seguinte maneira:
+
+```csharp
+using Newtonsoft.Json;
+
+
+class Program
+{
+  static void Main(string[] args)
+  {
+      // JSON de exemplo
+      string json = "{\"Nome\":\"Maria\",\"Idade\":25}";
+
+
+      // Desserializando o JSON em um objeto Pessoa
+      Pessoa pessoa = JsonConvert.DeserializeObject<Pessoa>(json);
+
+
+      // Exibindo os dados do objeto desserializado
+      Console.WriteLine($"Nome: {pessoa.Nome}, Idade: {pessoa.Idade}");
+  }
+}
+```
+
 ## [C#] IronOCR
 <img src="https://ironsoftware.com/img/svgs/iron-ocr-logo.svg" height="77" align="right">
 
