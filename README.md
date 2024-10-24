@@ -695,17 +695,23 @@ Vantagens do LINQ:
 
 Desvantagens do LINQ:
 
-1. **Desempenho**:
-   - Em alguns casos, pode haver impacto no desempenho devido à sobrecarga introduzida pela abstração do LINQ.
+1. **Desempenho**: Em alguns casos, pode haver impacto no desempenho devido à sobrecarga introduzida pela abstração do LINQ.
    
-2. **Curva de Aprendizado**:
-   - Desenvolvedores que não estão familiarizados com a programação funcional podem encontrar dificuldades para aprender e usar LINQ de maneira eficaz.
+2. **Curva de Aprendizado**: Desenvolvedores que não estão familiarizados com a programação funcional podem encontrar dificuldades para aprender e usar LINQ de maneira eficaz.
    
-3. **Dependência do ORM**:
-   - Para LINQ to SQL ou LINQ to Entities, a performance e a funcionalidade podem ser limitadas pelas capacidades do ORM subjacente.
+3. **Dependência do ORM**: Para LINQ to SQL ou LINQ to Entities, a performance e a funcionalidade podem ser limitadas pelas capacidades do ORM subjacente.
 
 ## [C#] NLog
 <img src="https://github.com/user-attachments/assets/c70ee0cf-b84f-4d5c-9465-573eb0733863" height="77" align="right">
+
+**NLog** é um mecanismo de log avançado para .NET, multi-plataforma, que permite o registro de eventos em diferentes níveis de severidade, como Debug, Info, Warn, Error e Fatal. Ele suporta vários alvos de log, como arquivos, bases de dados, redes e muito mais. Ele é personalizável e extensível, permitindo que os desenvolvedores ajustem a saída do log de acordo com as necessidades da aplicação. Ele é uma ferramenta importante para o desenvolvimento de aplicações robustas e estáveis. Ele ajuda a monitorar e solucionar problemas de aplicações em tempo real. Possui uma variedade de recursos, como:
+
+- Registrador de eventos flexível e personalizável;
+- Múltiplos alvos de log, como arquivos, bases de dados e redes;
+- Suporte a diferentes níveis de severidade de log;
+- Filtros e regras de log personalizáveis;
+- Suporte a registradores de eventos assíncronos;
+- Integração com frameworks .NET populares.
 
 ## [C#] Serilog
 <img src="https://serilog.net/img/serilog.png" height="77" align="right">
