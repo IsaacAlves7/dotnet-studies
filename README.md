@@ -705,6 +705,7 @@ Desvantagens do LINQ:
    - Para LINQ to SQL ou LINQ to Entities, a performance e a funcionalidade podem ser limitadas pelas capacidades do ORM subjacente.
 
 ## [C#] NLog
+<img src="https://github.com/user-attachments/assets/c70ee0cf-b84f-4d5c-9465-573eb0733863" height="77" align="right">
 
 ## [C#] Serilog
 <img src="https://serilog.net/img/serilog.png" height="77" align="right">
@@ -855,49 +856,35 @@ O ASP.NET e ASP.NET Core são ambas estruturas de desenvolvimento web da Microso
 
 ASP.NET
 
-1. **Plataforma**:
-   - ASP.NET é construído sobre o .NET Framework e é projetado para funcionar apenas no ambiente Windows.
+1. **Plataforma**: ASP.NET é construído sobre o .NET Framework e é projetado para funcionar apenas no ambiente Windows.
 
-2. **Desempenho**:
-   - O ASP.NET tradicional é menos eficiente em termos de desempenho em comparação ao ASP.NET Core devido à sua arquitetura mais pesada e dependência do .NET Framework.
+2. **Desempenho**: O ASP.NET tradicional é menos eficiente em termos de desempenho em comparação ao ASP.NET Core devido à sua arquitetura mais pesada e dependência do .NET Framework.
 
-3. **Modularidade**:
-   - ASP.NET não é tão modular quanto o ASP.NET Core. Ele é uma estrutura monolítica, o que significa que você não pode escolher os componentes que deseja usar; você precisa levar todo o framework.
+3. **Modularidade**: ASP.NET não é tão modular quanto o ASP.NET Core. Ele é uma estrutura monolítica, o que significa que você não pode escolher os componentes que deseja usar; você precisa levar todo o framework.
 
-4. **Tipos de Aplicações**:
-   - ASP.NET suporta várias abordagens como Web Forms, MVC, e Web API, mas essas abordagens são separadas e têm diferentes padrões de programação.
+4. **Tipos de Aplicações**: ASP.NET suporta várias abordagens como Web Forms, MVC, e Web API, mas essas abordagens são separadas e têm diferentes padrões de programação.
 
-5. **Desenvolvimento de Aplicações**:
-   - Mais adequado para aplicações que serão implantadas em servidores Windows. Tem forte integração com IIS (Internet Information Services).
+5. **Desenvolvimento de Aplicações**: Mais adequado para aplicações que serão implantadas em servidores Windows. Tem forte integração com IIS (Internet Information Services).
 
-6. **Atualização e Suporte**:
-   - O desenvolvimento e atualizações do ASP.NET tradicional têm sido mais lentos e limitados, pois a Microsoft está focando mais no ASP.NET Core para novos desenvolvimentos.
+6. **Atualização e Suporte**: O desenvolvimento e atualizações do ASP.NET tradicional têm sido mais lentos e limitados, pois a Microsoft está focando mais no ASP.NET Core para novos desenvolvimentos.
 
 ASP.NET Core
 
-1. **Plataforma**:
-   - ASP.NET Core é multiplataforma, funcionando em Windows, Linux e macOS. Ele é construído sobre o .NET Core (ou mais recentemente, o .NET 5+).
+1. **Plataforma**: ASP.NET Core é multiplataforma, funcionando em Windows, Linux e macOS. Ele é construído sobre o .NET Core (ou mais recentemente, o .NET 5+).
 
-2. **Desempenho**:
-   - ASP.NET Core é otimizado para alto desempenho e eficiência. Ele utiliza um pipeline de middleware leve e modular que melhora o desempenho geral.
+2. **Desempenho**: ASP.NET Core é otimizado para alto desempenho e eficiência. Ele utiliza um pipeline de middleware leve e modular que melhora o desempenho geral.
 
-3. **Modularidade**:
-   - Extremamente modular, permitindo que os desenvolvedores incluam apenas os componentes que são necessários para a aplicação. Isso reduz a sobrecarga e melhora o desempenho.
+3. **Modularidade**: Extremamente modular, permitindo que os desenvolvedores incluam apenas os componentes que são necessários para a aplicação. Isso reduz a sobrecarga e melhora o desempenho.
 
-4. **Tipos de Aplicações**:
-   - ASP.NET Core unifica a abordagem para MVC, Web API, e Razor Pages, proporcionando uma experiência de desenvolvimento mais consistente.
+4. **Tipos de Aplicações**: ASP.NET Core unifica a abordagem para MVC, Web API, e Razor Pages, proporcionando uma experiência de desenvolvimento mais consistente.
 
-5. **Desenvolvimento de Aplicações**:
-   - Melhor suporte para contêineres, como Docker, facilitando a criação e implantação de aplicativos em ambientes de nuvem e em vários sistemas operacionais.
+5. **Desenvolvimento de Aplicações**: Melhor suporte para contêineres, como Docker, facilitando a criação e implantação de aplicativos em ambientes de nuvem e em vários sistemas operacionais.
 
-6. **Atualização e Suporte**:
-   - A Microsoft está ativamente desenvolvendo e aprimorando o ASP.NET Core, tornando-o a principal plataforma para novos desenvolvimentos web. Recebe atualizações frequentes e novos recursos.
+6. **Atualização e Suporte**: A Microsoft está ativamente desenvolvendo e aprimorando o ASP.NET Core, tornando-o a principal plataforma para novos desenvolvimentos web. Recebe atualizações frequentes e novos recursos.
 
-7. **Injeção de Dependência**:
-   - Suporte embutido para injeção de dependência (DI), permitindo a construção de aplicações mais testáveis e configuráveis.
+7. **Injeção de Dependência**: Suporte embutido para injeção de dependência (DI), permitindo a construção de aplicações mais testáveis e configuráveis.
 
-8. **Middleware**:
-   - Utiliza middleware configurável e personalizável para compor o pipeline de processamento de solicitações, oferecendo maior controle sobre o comportamento do aplicativo.
+8. **Middleware**: Utiliza middleware configurável e personalizável para compor o pipeline de processamento de solicitações, oferecendo maior controle sobre o comportamento do aplicativo.
 
 Comparação Resumida:
 
@@ -1049,26 +1036,22 @@ O **Entity Framework (EF)** é uma biblioteca de mapeamento objeto-relacional (O
 
 Principais Características do Entity Framework:
 
-1. **Mapeamento Objeto-Relacional (ORM)**:
-   - Transforma dados armazenados em um banco de dados relacional em objetos .NET e vice-versa. Isso permite que os desenvolvedores trabalhem com dados usando paradigmas de programação orientada a objetos.
+1. **Mapeamento Objeto-Relacional (ORM)**: Transforma dados armazenados em um banco de dados relacional em objetos .NET e vice-versa. Isso permite que os desenvolvedores trabalhem com dados usando paradigmas de programação orientada a objetos.
 
 2. **Modelos de Desenvolvimento**:
    - **Code First**: Permite que os desenvolvedores definam o modelo de dados usando classes C# ou VB.NET. O EF cria o esquema do banco de dados com base nessas classes.
    - **Database First**: Começa com um banco de dados existente e gera classes de entidade com base no esquema do banco de dados.
    - **Model First**: Permite que os desenvolvedores definam um modelo usando um designer visual, que então gera o esquema do banco de dados e as classes de entidade.
 
-3. **Consultas LINQ**:
-   - Suporte para Language Integrated Query (LINQ), que permite escrever consultas de dados em C# ou VB.NET. O EF converte essas consultas em SQL e as executa no banco de dados.
+3. **Consultas LINQ**: Suporte para Language Integrated Query (LINQ), que permite escrever consultas de dados em C# ou VB.NET. O EF converte essas consultas em SQL e as executa no banco de dados.
 
-4. **Migrações**:
-   - Gerenciamento de mudanças no esquema do banco de dados através de migrações. Isso facilita a evolução do esquema de banco de dados de forma controlada.
+4. **Migrações**: Gerenciamento de mudanças no esquema do banco de dados através de migrações. Isso facilita a evolução do esquema de banco de dados de forma controlada.
 
 5. **Lazy Loading e Eager Loading**:
    - **Lazy Loading**: Carrega dados relacionados sob demanda quando eles são acessados pela primeira vez.
    - **Eager Loading**: Carrega dados relacionados junto com a consulta inicial, evitando múltiplas consultas ao banco de dados.
 
-6. **Validação**:
-   - Suporte a validações de dados usando atributos de anotação de dados (Data Annotations) e a API de validação.
+6. **Validação**: Suporte a validações de dados usando atributos de anotação de dados (Data Annotations) e a API de validação.
 
 Exemplo Básico de Uso do Entity Framework:
 
@@ -1153,7 +1136,6 @@ Limitações do Entity Framework:
 
 3. **Flexibilidade**:
    - Pode ser menos flexível para certos tipos de consultas ou operações avançadas de banco de dados.
-
 
 ## [C#] GraphQL
 Vamos fazer a consulta de dados via API GraphQL do Pipefy com o .NET e exibir esses dados no CLI de console do terminal no formato JSON. Para isso, siga os passos abaixo:
@@ -1259,26 +1241,19 @@ O **Ocelot** é uma biblioteca de código aberto para construção de gateways d
 
 Principais Características do Ocelot:
 
-1. **Gateway de API**:
-   - Permite que os desenvolvedores criem um ponto de entrada único para acessar várias APIs de serviço.
+1. **Gateway de API**: Permite que os desenvolvedores criem um ponto de entrada único para acessar várias APIs de serviço.
 
-2. **Roteamento de Requisições**:
-   - Roteia as solicitações do cliente para as APIs de serviço correspondentes com base em critérios como URL, método HTTP, cabeçalhos etc.
+2. **Roteamento de Requisições**: Roteia as solicitações do cliente para as APIs de serviço correspondentes com base em critérios como URL, método HTTP, cabeçalhos etc.
 
-3. **Autenticação e Autorização**:
-   - Oferece suporte para autenticação e autorização, permitindo controlar o acesso às APIs de serviço com base em políticas de segurança.
+3. **Autenticação e Autorização**: Oferece suporte para autenticação e autorização, permitindo controlar o acesso às APIs de serviço com base em políticas de segurança.
 
-4. **Transformação de Requisições e Respostas**:
-   - Permite transformar solicitações e respostas entre o formato do cliente e o formato esperado pela API de serviço.
+4. **Transformação de Requisições e Respostas**: Permite transformar solicitações e respostas entre o formato do cliente e o formato esperado pela API de serviço.
 
-5. **Cache de Respostas**:
-   - Oferece suporte para cache de respostas para melhorar o desempenho e reduzir a carga nos serviços de backend.
+5. **Cache de Respostas**: Oferece suporte para cache de respostas para melhorar o desempenho e reduzir a carga nos serviços de backend.
 
-6. **Logging e Monitoramento**:
-   - Possibilita o registro de solicitações, respostas e eventos para monitoramento e análise.
+6. **Logging e Monitoramento**: Possibilita o registro de solicitações, respostas e eventos para monitoramento e análise.
 
-7. **Extensibilidade**:
-   - É altamente extensível e pode ser personalizado com middleware e plugins para atender às necessidades específicas do projeto.
+7. **Extensibilidade**: É altamente extensível e pode ser personalizado com middleware e plugins para atender às necessidades específicas do projeto.
 
 Exemplo de Configuração do Ocelot:
 
@@ -1330,6 +1305,40 @@ O **Newtonsoft** é uma biblioteca de serialização JSON para .NET, que permite
 
 ```sh
 dotnet add package Newtonsoft
+```
+
+O JSON (JavaScript Object Notation) tornou-se um formato popular para troca de dados entre sistemas devido à sua simplicidade e facilidade de leitura tanto por humanos quanto por máquinas. No ecossistema C#, uma das maneiras mais comuns de trabalhar com JSON é através da biblioteca Newtonsoft.Json (também conhecida como Json.NET). Esta biblioteca é amplamente utilizada devido à sua performance, flexibilidade e facilidade de uso.
+
+A **Serialização** é o processo de converter um objeto C# em uma `string` JSON. Isso é útil quando você deseja enviar dados de um aplicativo C# para outro sistema ou armazená-los em um formato que possa ser facilmente compartilhado ou persistido. Para serializar um objeto em JSON utilizando o Json.NET, você pode utilizar o método "`JsonConvert.SerializeObject()`" da seguinte maneira:
+
+```csharp
+using Newtonsoft.Json;
+
+
+// Definindo uma classe de exemplo
+public class Pessoa
+{
+  public string Nome { get; set; }
+  public int Idade { get; set; }
+}
+
+
+class Program
+{
+  static void Main(string[] args)
+  {
+      // Criando uma instância da classe Pessoa
+      Pessoa pessoa = new Pessoa { Nome = "João", Idade = 30 };
+
+
+      // Serializando o objeto em JSON
+      string json = JsonConvert.SerializeObject(pessoa);
+
+
+      // Exibindo o JSON serializado
+      Console.WriteLine(json);
+  }
+}
 ```
 
 ## [C#] IronOCR
