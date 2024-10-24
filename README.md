@@ -842,17 +842,13 @@ Pressione `F5` ou clique em **Run** para executar a aplicação. O navegador dev
 
 Vantagens do ASP.NET:
 
-1. **Produtividade**:
-   - Ferramentas e frameworks que aceleram o desenvolvimento.
+1. **Produtividade**: Ferramentas e frameworks que aceleram o desenvolvimento.
    
-2. **Flexibilidade**:
-   - Suporte para múltiplas arquiteturas e padrões de desenvolvimento.
+2. **Flexibilidade**: Suporte para múltiplas arquiteturas e padrões de desenvolvimento.
 
-3. **Comunidade e Suporte**:
-   - Grande comunidade de desenvolvedores e vasto número de recursos e bibliotecas disponíveis.
+3. **Comunidade e Suporte**: Grande comunidade de desenvolvedores e vasto número de recursos e bibliotecas disponíveis.
 
-4. **Desempenho**:
-   - ASP.NET Core é conhecido por seu alto desempenho e capacidade de escalar em ambientes de produção.
+4. **Desempenho**: ASP.NET Core é conhecido por seu alto desempenho e capacidade de escalar em ambientes de produção.
 
 Temos também o **ASP.NET Core** que é uma versão moderna, multiplataforma e de alto desempenho do ASP.NET, desenvolvida pela Microsoft. É uma reformulação completa do ASP.NET tradicional, projetada para ser leve, modular e eficiente, com o objetivo de atender às necessidades modernas de desenvolvimento de aplicações web.
 
