@@ -1307,20 +1307,15 @@ Neste exemplo, todas as solicitações recebidas em `/api/{everything}` serão r
 
 Vantagens do Ocelot:
 
-1. **Simplicidade de Configuração**:
-   - Fácil de configurar e usar, reduzindo a complexidade na construção de gateways de API.
+1. **Simplicidade de Configuração**: Fácil de configurar e usar, reduzindo a complexidade na construção de gateways de API.
 
-2. **Flexibilidade**:
-   - Oferece flexibilidade para rotear, autenticar, autorizar e transformar solicitações e respostas conforme necessário.
+2. **Flexibilidade**: Oferece flexibilidade para rotear, autenticar, autorizar e transformar solicitações e respostas conforme necessário.
 
-3. **Padrões de Segurança**:
-   - Suporta padrões de segurança como OAuth, JWT e OpenID Connect para autenticação e autorização.
+3. **Padrões de Segurança**: Suporta padrões de segurança como OAuth, JWT e OpenID Connect para autenticação e autorização.
 
-4. **Desempenho**:
-   - Pode melhorar o desempenho ao cache de respostas e otimização de solicitações, reduzindo o tempo de resposta.
+4. **Desempenho**: Pode melhorar o desempenho ao cache de respostas e otimização de solicitações, reduzindo o tempo de resposta.
 
-5. **Comunidade Ativa**:
-   - Tem uma comunidade ativa de desenvolvedores que contribuem com melhorias, correções de bugs e suporte.
+5. **Comunidade Ativa**: Tem uma comunidade ativa de desenvolvedores que contribuem com melhorias, correções de bugs e suporte.
 
 ## [C#] Newtonsoft
 <img src="https://github.com/user-attachments/assets/f7b8f5b7-ff04-463c-a170-0e543b38d8c3" align="right" height="77">
@@ -1344,29 +1339,21 @@ O **IronOCR** é uma biblioteca .NET que fornece funcionalidades avançadas de r
 
 Principais Características do IronOCR:
 
-1. **Reconhecimento de Texto em Imagens**:
-   - Capacidade de extrair texto de imagens digitais, incluindo formatos como JPEG, PNG, BMP e TIFF.
+1. **Reconhecimento de Texto em Imagens**: Capacidade de extrair texto de imagens digitais, incluindo formatos como JPEG, PNG, BMP e TIFF.
 
-2. **Suporte a Documentos Digitalizados**:
-   - Reconhecimento de texto em documentos digitalizados, como PDFs, usando OCR para converter o conteúdo do documento em texto pesquisável e editável.
+2. **Suporte a Documentos Digitalizados**: Reconhecimento de texto em documentos digitalizados, como PDFs, usando OCR para converter o conteúdo do documento em texto pesquisável e editável.
 
-3. **Suporte Multilíngue**:
-   - Reconhece texto em várias línguas e caracteres especiais, facilitando o processamento de documentos em diferentes idiomas.
+3. **Suporte Multilíngue**: Reconhece texto em várias línguas e caracteres especiais, facilitando o processamento de documentos em diferentes idiomas.
 
-4. **Processamento de Alta Qualidade**:
-   - Oferece algoritmos avançados para garantir alta precisão no reconhecimento de texto, mesmo em documentos com baixa qualidade de imagem ou distorções.
+4. **Processamento de Alta Qualidade**: Oferece algoritmos avançados para garantir alta precisão no reconhecimento de texto, mesmo em documentos com baixa qualidade de imagem ou distorções.
 
-5. **API Fácil de Usar**:
-   - API simples e intuitiva que permite aos desenvolvedores integrar facilmente funcionalidades de OCR em suas aplicações .NET.
+5. **API Fácil de Usar**: API simples e intuitiva que permite aos desenvolvedores integrar facilmente funcionalidades de OCR em suas aplicações .NET.
 
-6. **Configurações Avançadas**:
-   - Opções para configurar o comportamento do OCR, como idioma, resolução de imagem e algoritmos de reconhecimento.
+6. **Configurações Avançadas**: Opções para configurar o comportamento do OCR, como idioma, resolução de imagem e algoritmos de reconhecimento.
 
-7. **Suporte para .NET Core e .NET Framework**:
-   - Compatibilidade com ambas as plataformas .NET, permitindo que desenvolvedores usem o IronOCR em uma ampla gama de projetos.
+7. **Suporte para .NET Core e .NET Framework**: Compatibilidade com ambas as plataformas .NET, permitindo que desenvolvedores usem o IronOCR em uma ampla gama de projetos.
 
-8. **Licença de Uso Flexível**:
-   - Disponível em diferentes planos de licenciamento para atender às necessidades de desenvolvedores individuais, equipes e empresas.
+8. **Licença de Uso Flexível**: Disponível em diferentes planos de licenciamento para atender às necessidades de desenvolvedores individuais, equipes e empresas.
 
 Exemplo de Uso do IronOCR:
 
