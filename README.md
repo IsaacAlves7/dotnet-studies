@@ -104,20 +104,15 @@ O .NET Framework é uma plataforma poderosa e abrangente para desenvolvimento de
 
 Aplicações Comuns:
 
-1. **Desenvolvimento Web**:
-   - **ASP.NET**: Framework para a construção de aplicações web dinâmicas e serviços web.
+1. **Desenvolvimento Web**: **ASP.NET**: Framework para a construção de aplicações web dinâmicas e serviços web.
 
-2. **Aplicações de Desktop**:
-   - **Windows Forms** e **WPF (Windows Presentation Foundation)**: Para criar aplicações desktop ricas para Windows.
+2. **Aplicações de Desktop**: **Windows Forms** e **WPF (Windows Presentation Foundation)**: Para criar aplicações desktop ricas para Windows.
 
-3. **Desenvolvimento Móvel**:
-   - **Xamarin**: Plataforma para o desenvolvimento de aplicações móveis cross-platform usando C#.
+3. **Desenvolvimento Móvel**: **Xamarin**: Plataforma para o desenvolvimento de aplicações móveis cross-platform usando C#.
 
-4. **Desenvolvimento de Jogos**:
-   - **Unity**: Um dos motores de jogos mais populares que usa C# como linguagem de script.
+4. **Desenvolvimento de Jogos**: **Unity**: Um dos motores de jogos mais populares que usa C# como linguagem de script.
 
-5. **Serviços Web e APIs**:
-   - **Web API**: Para a construção de APIs RESTful.
+5. **Serviços Web e APIs**: **Web API**: Para a construção de APIs RESTful.
 
 Mostra a aplicação do dotnet funcionando e suas opções:
 
@@ -271,50 +266,31 @@ END;
 
 Vantagens do T-SQL:
 
-1. **Integração com SQL Server**:
-   - O T-SQL é otimizado para funcionar com o SQL Server, aproveitando os recursos e funcionalidades específicas da plataforma.
+1. **Integração com SQL Server**: O T-SQL é otimizado para funcionar com o SQL Server, aproveitando os recursos e funcionalidades específicas da plataforma.
 
-2. **Desempenho**:
-   - Por ser otimizado para o SQL Server, o T-SQL pode oferecer melhor desempenho em comparação com outras linguagens de consulta genéricas.
+2. **Desempenho**: Por ser otimizado para o SQL Server, o T-SQL pode oferecer melhor desempenho em comparação com outras linguagens de consulta genéricas.
 
-3. **Ampla Gama de Recursos**:
-   - Oferece uma ampla variedade de recursos e funcionalidades para atender às necessidades complexas de desenvolvimento e administração de banco de dados.
+3. **Ampla Gama de Recursos**: Oferece uma ampla variedade de recursos e funcionalidades para atender às necessidades complexas de desenvolvimento e administração de banco de dados.
 
-4. **Familiaridade**:
-   - Muitos desenvolvedores e administradores estão familiarizados com o T-SQL devido à sua ampla adoção e documentação disponível.
+4. **Familiaridade**: Muitos desenvolvedores e administradores estão familiarizados com o T-SQL devido à sua ampla adoção e documentação disponível.
 
 Voltando ao MSSQL, as principais características dele são:
 
-1. **Modelo Relacional**:
+1. **Modelo Relacional**: O SQL Server utiliza um modelo relacional para armazenar dados em tabelas, que são organizadas em bancos de dados.
 
-   - O SQL Server utiliza um modelo relacional para armazenar dados em tabelas, que são organizadas em bancos de dados.
+3. **Linguagem SQL**: Suporte completo à Linguagem de Consulta Estruturada (SQL), que permite aos desenvolvedores e administradores realizar consultas e manipular dados de forma eficiente.
 
-3. **Linguagem SQL**:
+5. **Gerenciamento de Dados**: Capacidade de armazenar, recuperar e manipular grandes volumes de dados de forma eficiente e confiável.
 
-   - Suporte completo à Linguagem de Consulta Estruturada (SQL), que permite aos desenvolvedores e administradores realizar consultas e manipular dados de forma eficiente.
+6. **Segurança Integrada**: Recursos avançados de segurança, incluindo autenticação, autorização, criptografia e auditoria, para proteger os dados armazenados no banco de dados.
 
-5. **Gerenciamento de Dados**:
-   - Capacidade de armazenar, recuperar e manipular grandes volumes de dados de forma eficiente e confiável.
+8. **Escalabilidade e Desempenho**: Suporte a recursos de escalabilidade horizontal e vertical, bem como otimizações de desempenho para garantir um desempenho rápido e responsivo, mesmo em ambientes de alta carga.
 
-6. **Segurança Integrada**:
+10. **Replicação e Alta Disponibilidade**: Recursos de replicação e clustering para garantir a disponibilidade contínua dos dados e evitar pontos únicos de falha.
 
-   - Recursos avançados de segurança, incluindo autenticação, autorização, criptografia e auditoria, para proteger os dados armazenados no banco de dados.
+11. **Integração com Ferramentas Microsoft**: Integração nativa com outras ferramentas e tecnologias da Microsoft, como .NET Framework, Visual Studio, Azure e Power BI.
 
-8. **Escalabilidade e Desempenho**:
-
-   - Suporte a recursos de escalabilidade horizontal e vertical, bem como otimizações de desempenho para garantir um desempenho rápido e responsivo, mesmo em ambientes de alta carga.
-
-10. **Replicação e Alta Disponibilidade**:
-
-   - Recursos de replicação e clustering para garantir a disponibilidade contínua dos dados e evitar pontos únicos de falha.
-
-11. **Integração com Ferramentas Microsoft**:
-
-   - Integração nativa com outras ferramentas e tecnologias da Microsoft, como .NET Framework, Visual Studio, Azure e Power BI.
-
-11. **Suporte a Plataformas Múltiplas**:
-    
-   - Disponibilidade em várias plataformas, incluindo Windows e Linux, proporcionando flexibilidade na escolha da plataforma de implantação.
+11. **Suporte a Plataformas Múltiplas**: Disponibilidade em várias plataformas, incluindo Windows e Linux, proporcionando flexibilidade na escolha da plataforma de implantação.
 
 Edições do Microsoft SQL Server:
 
@@ -360,20 +336,15 @@ VALUES (1, 'João', 'joao@example.com'),
 
 Vantagens do Microsoft SQL Server:
 
-1. **Robustez e Confiabilidade**:
-   - Uma plataforma madura e confiável com uma ampla gama de recursos para atender às necessidades de empresas de todos os tamanhos.
+1. **Robustez e Confiabilidade**: Uma plataforma madura e confiável com uma ampla gama de recursos para atender às necessidades de empresas de todos os tamanhos.
 
-2. **Desempenho**:
-   - Oferece otimizações de desempenho para garantir uma resposta rápida mesmo em ambientes de alta carga.
+2. **Desempenho**: Oferece otimizações de desempenho para garantir uma resposta rápida mesmo em ambientes de alta carga.
 
-3. **Segurança**:
-   - Recursos avançados de segurança para proteger os dados sensíveis contra ameaças internas e externas.
+3. **Segurança**: Recursos avançados de segurança para proteger os dados sensíveis contra ameaças internas e externas.
 
-4. **Integração com Ferramentas Microsoft**:
-   - Integração perfeita com outras ferramentas e tecnologias da Microsoft, facilitando o desenvolvimento e administração de aplicações.
+4. **Integração com Ferramentas Microsoft**: Integração perfeita com outras ferramentas e tecnologias da Microsoft, facilitando o desenvolvimento e administração de aplicações.
 
-5. **Escalabilidade**:
-   - Capacidade de escalar verticalmente e horizontalmente para lidar com o crescimento dos dados e das demandas da aplicação.
+5. **Escalabilidade**: Capacidade de escalar verticalmente e horizontalmente para lidar com o crescimento dos dados e das demandas da aplicação.
 
 ## Apache Cassandra
 <img src="https://cdn.worldvectorlogo.com/logos/cassandra.svg" align="right" height="77">
@@ -382,46 +353,33 @@ O **Apache Cassandra** é um sistema de gerenciamento de banco de dados distribu
 
 Principais Características do Apache Cassandra:
 
-1. **Modelo de Dados Desnormalizado**:
-   - O Cassandra utiliza um modelo de dados de estilo NoSQL, no qual os dados são armazenados de forma desnormalizada, permitindo consultas rápidas e eficientes.
+1. **Modelo de Dados Desnormalizado**: O Cassandra utiliza um modelo de dados de estilo NoSQL, no qual os dados são armazenados de forma desnormalizada, permitindo consultas rápidas e eficientes.
 
-2. **Escalabilidade Horizontal**:
-   - É altamente escalável horizontalmente, o que significa que pode ser facilmente dimensionado adicionando novos nós ao cluster para lidar com o aumento da carga de trabalho e volume de dados.
+2. **Escalabilidade Horizontal**: É altamente escalável horizontalmente, o que significa que pode ser facilmente dimensionado adicionando novos nós ao cluster para lidar com o aumento da carga de trabalho e volume de dados.
 
-3. **Arquitetura Distribuída**:
-   - Distribui os dados entre vários nós em um cluster, permitindo que ele mantenha alta disponibilidade e tolerância a falhas mesmo em caso de falha de hardware ou rede.
+3. **Arquitetura Distribuída**: Distribui os dados entre vários nós em um cluster, permitindo que ele mantenha alta disponibilidade e tolerância a falhas mesmo em caso de falha de hardware ou rede.
 
-4. **Desempenho e Baixa Latência**:
-   - Oferece baixa latência e alto desempenho para operações de leitura e gravação, tornando-o adequado para aplicações que exigem resposta rápida.
+4. **Desempenho e Baixa Latência**: Oferece baixa latência e alto desempenho para operações de leitura e gravação, tornando-o adequado para aplicações que exigem resposta rápida.
 
-5. **Sem Ponto Único de Falha**:
-   - Elimina pontos únicos de falha usando uma arquitetura descentralizada, onde cada nó no cluster é igualmente responsável pela execução de consultas e armazenamento de dados.
+5. **Sem Ponto Único de Falha**: Elimina pontos únicos de falha usando uma arquitetura descentralizada, onde cada nó no cluster é igualmente responsável pela execução de consultas e armazenamento de dados.
 
-6. **Flexibilidade de Consistência**:
-   - Permite aos usuários configurar o nível de consistência desejado para operações de leitura e gravação, oferecendo uma escolha entre consistência forte e disponibilidade imediata.
+6. **Flexibilidade de Consistência**: Permite aos usuários configurar o nível de consistência desejado para operações de leitura e gravação, oferecendo uma escolha entre consistência forte e disponibilidade imediata.
 
-7. **Suporte a Consultas Flexíveis**:
-   - Suporta consultas flexíveis usando CQL (Cassandra Query Language), uma linguagem de consulta semelhante ao SQL, que permite realizar consultas simples e complexas nos dados.
+7. **Suporte a Consultas Flexíveis**: Suporta consultas flexíveis usando CQL (Cassandra Query Language), uma linguagem de consulta semelhante ao SQL, que permite realizar consultas simples e complexas nos dados.
 
-8. **Integração com Ferramentas de Big Data**:
-   - Pode ser integrado com outras ferramentas de big data, como Apache Hadoop e Apache Spark, para análise de dados em larga escala.
+8. **Integração com Ferramentas de Big Data**: Pode ser integrado com outras ferramentas de big data, como Apache Hadoop e Apache Spark, para análise de dados em larga escala.
 
 Casos de Uso do Apache Cassandra:
 
-1. **Aplicações de Redes Sociais**:
-   - Usado por empresas de redes sociais para armazenar dados de perfil de usuários, feeds de notícias e interações sociais.
+1. **Aplicações de Redes Sociais**: Usado por empresas de redes sociais para armazenar dados de perfil de usuários, feeds de notícias e interações sociais.
 
-2. **Aplicações de IoT (Internet das Coisas)**:
-   - Ideal para armazenar grandes volumes de dados gerados por dispositivos IoT, como sensores, medidores e dispositivos conectados.
+2. **Aplicações de IoT (Internet das Coisas)**: Ideal para armazenar grandes volumes de dados gerados por dispositivos IoT, como sensores, medidores e dispositivos conectados.
 
-3. **Aplicações de Análise de Logs**:
-   - Utilizado para armazenar e analisar logs de aplicativos, servidores e sistemas distribuídos devido à sua capacidade de lidar com grande volume de dados e baixa latência.
+3. **Aplicações de Análise de Logs**: Utilizado para armazenar e analisar logs de aplicativos, servidores e sistemas distribuídos devido à sua capacidade de lidar com grande volume de dados e baixa latência.
 
-4. **Aplicações de Monitoramento em Tempo Real**:
-   - Adequado para aplicações que exigem monitoramento em tempo real e análise de dados em tempo real, como detecção de fraudes, monitoramento de desempenho e análise de eventos.
+4. **Aplicações de Monitoramento em Tempo Real**: Adequado para aplicações que exigem monitoramento em tempo real e análise de dados em tempo real, como detecção de fraudes, monitoramento de desempenho e análise de eventos.
 
-5. **Aplicações de Comércio Eletrônico**:
-   - Usado para armazenar catálogos de produtos, histórico de compras, carrinhos de compras e dados de sessão de usuários em plataformas de comércio eletrônico.
+5. **Aplicações de Comércio Eletrônico**: Usado para armazenar catálogos de produtos, histórico de compras, carrinhos de compras e dados de sessão de usuários em plataformas de comércio eletrônico.
 
 Exemplo de Uso do Apache Cassandra:
 
@@ -1418,23 +1376,17 @@ class Program
 
 Vantagens do IronOCR:
 
-1. **Facilidade de Uso**:
-   - API simples e intuitiva, facilitando a adição de funcionalidades de OCR em aplicações .NET.
+1. **Facilidade de Uso**: API simples e intuitiva, facilitando a adição de funcionalidades de OCR em aplicações .NET.
 
-2. **Alta Precisão**:
-   - Utiliza algoritmos avançados para garantir alta precisão no reconhecimento de texto, mesmo em condições desafiadoras.
+2. **Alta Precisão**: Utiliza algoritmos avançados para garantir alta precisão no reconhecimento de texto, mesmo em condições desafiadoras.
 
-3. **Suporte Multilíngue**:
-   - Reconhece texto em uma ampla variedade de idiomas e caracteres especiais.
+3. **Suporte Multilíngue**: Reconhece texto em uma ampla variedade de idiomas e caracteres especiais.
 
-4. **Suporte para Diversos Formatos de Imagem**:
-   - Capacidade de trabalhar com uma variedade de formatos de imagem, incluindo JPEG, PNG, BMP, TIFF e PDF.
+4. **Suporte para Diversos Formatos de Imagem**: Capacidade de trabalhar com uma variedade de formatos de imagem, incluindo JPEG, PNG, BMP, TIFF e PDF.
 
-5. **Compatibilidade com .NET Core e .NET Framework**:
-   - Pode ser utilizado em projetos .NET Core e .NET Framework, oferecendo flexibilidade para desenvolvedores.
+5. **Compatibilidade com .NET Core e .NET Framework**: Pode ser utilizado em projetos .NET Core e .NET Framework, oferecendo flexibilidade para desenvolvedores.
 
-6. **Documentação Abundante**:
-   - Disponibilidade de documentação detalhada, exemplos de código e suporte técnico para ajudar os desenvolvedores a começar rapidamente.
+6. **Documentação Abundante**: Disponibilidade de documentação detalhada, exemplos de código e suporte técnico para ajudar os desenvolvedores a começar rapidamente.
 
 # 🧪 [C#] Testes unitários com .NET
 O **Moq** e **XUnit.net** são ferramentas distintas para testes em .NET:
