@@ -766,11 +766,9 @@ Neste exemplo, o Serilog é configurado para escrever logs tanto no console quan
 
 Principais Características do ASP.NET:
 
-1. **Desenvolvimento Baseado em Servidor**:
-   - ASP.NET permite a execução de código no servidor, o que gera o HTML enviado ao cliente (navegador). Isso facilita a criação de páginas dinâmicas e interativas.
+1. **Desenvolvimento Baseado em Servidor**: ASP.NET permite a execução de código no servidor, o que gera o HTML enviado ao cliente (navegador). Isso facilita a criação de páginas dinâmicas e interativas.
 
-2. **Componentes Reutilizáveis**:
-   - Fornece uma vasta gama de componentes de UI e lógica de negócios que podem ser reutilizados em diferentes partes da aplicação.
+2. **Componentes Reutilizáveis**: Fornece uma vasta gama de componentes de UI e lógica de negócios que podem ser reutilizados em diferentes partes da aplicação.
 
 3. **Modelos de Desenvolvimento**:
    - **Web Forms**: Abordagem tradicional, similar ao desenvolvimento de aplicativos desktop, com componentes de arrastar e soltar.
@@ -778,14 +776,11 @@ Principais Características do ASP.NET:
    - **Web API**: Focado na criação de serviços HTTP que podem ser consumidos por diferentes clientes, como navegadores e dispositivos móveis.
    - **Razor Pages**: Abordagem simples e baseada em páginas, ideal para páginas de UI que não exigem a complexidade do MVC.
 
-4. **Segurança Integrada**:
-   - Suporte integrado para autenticação, autorização e proteção contra ataques comuns (como XSS e CSRF).
+4. **Segurança Integrada**: Suporte integrado para autenticação, autorização e proteção contra ataques comuns (como XSS e CSRF).
 
-5. **Performance e Escalabilidade**:
-   - ASP.NET Core, a versão mais recente, é otimizada para alta performance e pode ser executada em múltiplas plataformas (Windows, Linux, macOS).
+6. **Performance e Escalabilidade**: ASP.NET Core, a versão mais recente, é otimizada para alta performance e pode ser executada em múltiplas plataformas (Windows, Linux, macOS).
 
-6. **Ferramentas de Desenvolvimento**:
-   - Excelente integração com o Visual Studio, oferecendo ferramentas poderosas de depuração, testes e implantação.
+7. **Ferramentas de Desenvolvimento**: Excelente integração com o Visual Studio, oferecendo ferramentas poderosas de depuração, testes e implantação.
 
 Exemplo de Aplicação ASP.NET:
 
@@ -1401,6 +1396,21 @@ Vantagens do IronOCR:
 
 6. **Documentação Abundante**:
    - Disponibilidade de documentação detalhada, exemplos de código e suporte técnico para ajudar os desenvolvedores a começar rapidamente.
+
+# [C#] Newtonsoft
+<img src="https://github.com/user-attachments/assets/f7b8f5b7-ff04-463c-a170-0e543b38d8c3" align="right" height="77">
+
+O **Newtonsoft** é uma biblioteca de serialização JSON para .NET, que permite converter objetos em JSON e vice-versa de maneira fácil e rápida. É uma das bibliotecas mais populares para trabalhar com JSON em aplicações .NET, incluindo aplicativos desktop, web e móveis. A biblioteca fornece uma variedade de recursos, como:
+
+- Serialização e desserialização de objetos em JSON;
+- Suporte a diferentes tipos de dados, como primitivos, objetos complexos e coleções;
+- Personalização da serialização e desserialização através de atributos e configurações;
+- Suporte a serialização e desserialização assíncrona;
+- Integração com frameworks .NET, como (link unavailable) e .NET Core.
+
+```sh
+dotnet add package Newtonsoft
+```
 
 # 🧪 [C#] Testes unitários com .NET
 O **Moq** e **XUnit.net** são ferramentas distintas para testes em .NET:
