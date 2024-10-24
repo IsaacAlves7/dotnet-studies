@@ -704,6 +704,8 @@ Desvantagens do LINQ:
 3. **Dependência do ORM**:
    - Para LINQ to SQL ou LINQ to Entities, a performance e a funcionalidade podem ser limitadas pelas capacidades do ORM subjacente.
 
+## [C#] NLog
+
 ## [C#] Serilog
 <img src="https://serilog.net/img/serilog.png" height="77" align="right">
 
@@ -1320,6 +1322,21 @@ Vantagens do Ocelot:
 5. **Comunidade Ativa**:
    - Tem uma comunidade ativa de desenvolvedores que contribuem com melhorias, correções de bugs e suporte.
 
+## [C#] Newtonsoft
+<img src="https://github.com/user-attachments/assets/f7b8f5b7-ff04-463c-a170-0e543b38d8c3" align="right" height="77">
+
+O **Newtonsoft** é uma biblioteca de serialização JSON para .NET, que permite converter objetos em JSON e vice-versa de maneira fácil e rápida. É uma das bibliotecas mais populares para trabalhar com JSON em aplicações .NET, incluindo aplicativos desktop, web e móveis. A biblioteca fornece uma variedade de recursos, como:
+
+- Serialização e desserialização de objetos em JSON;
+- Suporte a diferentes tipos de dados, como primitivos, objetos complexos e coleções;
+- Personalização da serialização e desserialização através de atributos e configurações;
+- Suporte a serialização e desserialização assíncrona;
+- Integração com frameworks .NET, como (link unavailable) e .NET Core.
+
+```sh
+dotnet add package Newtonsoft
+```
+
 ## [C#] IronOCR
 <img src="https://ironsoftware.com/img/svgs/iron-ocr-logo.svg" height="77" align="right">
 
@@ -1396,21 +1413,6 @@ Vantagens do IronOCR:
 
 6. **Documentação Abundante**:
    - Disponibilidade de documentação detalhada, exemplos de código e suporte técnico para ajudar os desenvolvedores a começar rapidamente.
-
-# [C#] Newtonsoft
-<img src="https://github.com/user-attachments/assets/f7b8f5b7-ff04-463c-a170-0e543b38d8c3" align="right" height="77">
-
-O **Newtonsoft** é uma biblioteca de serialização JSON para .NET, que permite converter objetos em JSON e vice-versa de maneira fácil e rápida. É uma das bibliotecas mais populares para trabalhar com JSON em aplicações .NET, incluindo aplicativos desktop, web e móveis. A biblioteca fornece uma variedade de recursos, como:
-
-- Serialização e desserialização de objetos em JSON;
-- Suporte a diferentes tipos de dados, como primitivos, objetos complexos e coleções;
-- Personalização da serialização e desserialização através de atributos e configurações;
-- Suporte a serialização e desserialização assíncrona;
-- Integração com frameworks .NET, como (link unavailable) e .NET Core.
-
-```sh
-dotnet add package Newtonsoft
-```
 
 # 🧪 [C#] Testes unitários com .NET
 O **Moq** e **XUnit.net** são ferramentas distintas para testes em .NET:
